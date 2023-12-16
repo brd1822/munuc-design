@@ -192,6 +192,7 @@
       </div>
    </div>
 </div>
+
 <!-- COLLECTION RANGE Section End -->
 <div class="section testimonial-bg-img section-padding">
    <div class="container">

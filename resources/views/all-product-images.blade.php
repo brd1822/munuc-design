@@ -15,7 +15,6 @@
                      <img src="{{ asset('public').'/'.$prodImages->product_images }}" alt="Sale Banner Image" class="btn-gallery">
                   </div>
                   </a>
-
                   <!-- <div class="content display-flrx-content">
                      <div>
                         <h2 class="title">

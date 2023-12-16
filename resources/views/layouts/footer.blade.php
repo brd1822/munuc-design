@@ -80,8 +80,6 @@ gallery: {
 
 },
 
-
-
 zoom: {
 
     enabled: true,
