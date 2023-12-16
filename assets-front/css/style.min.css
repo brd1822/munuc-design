@@ -9569,7 +9569,8 @@ body.offcanvas-open {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url('../munucdesigns_img/bg-img.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: unset;
+    background-attachment: fixed;
 }
 
 .testimonial-bg-img {

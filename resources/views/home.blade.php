@@ -2,7 +2,7 @@
 @section('title',"Home") 
 @section('content')
 <!-- Slider main container Start -->
-<div class="section">
+<div class="section animate__animated animate__backInUp animate__delay-1s">
    <div class="container">
       <div class="swiper-container">
          <div class="swiper-wrapper">
@@ -28,14 +28,14 @@
    <div class="container">
       <div class="row learts-mb-n30">
          <!-- About Us Image Start -->
-         <div class="col-md-6 col-12 ms-lg-auto learts-mb-30">
+         <div class="col-md-6 col-12 ms-lg-auto learts-mb-30 animate__animated animate__backInLeft animate__delay-4s">
             <div class="about-us-image">
                <img src="{{ asset('assets-front/munucdesigns_img/aboutus.jpeg') }}" alt="About Image">
             </div>
          </div>
          <!-- About Us Image End -->
          <!-- About Us Content Start -->
-         <div class="col-lg-6 col-md-6 col-12 ms-lg-auto align-self-center learts-mb-0">
+         <div class="col-lg-6 col-md-6 col-12 ms-lg-auto align-self-center learts-mb-0 animate__animated animate__backInRight animate__delay-4s">
             <div class="about-us m-lg-4">
                <div class="inner">
                   <h6 class="sub-title about-sub-title">Where Inspiration Meets Comfort:</h6>
