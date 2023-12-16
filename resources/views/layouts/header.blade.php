@@ -12,7 +12,6 @@
 <link rel="stylesheet" href="{{ asset('assets-front/css/vendor/fontawesome.min.css') }}">
 <link rel="stylesheet" href="{{ asset('assets-front/css/vendor/themify-icons.css') }}">
 <link rel="stylesheet" href="{{ asset('assets-front/css/vendor/customFonts.css') }}">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
 <!-- Plugins CSS (All Plugins Files) -->
 <link rel="stylesheet" href="{{ asset('assets-front/css/plugins/select2.min.css') }}">
 <link rel="stylesheet" href="{{ asset('assets-front/css/plugins/perfect-scrollbar.css') }}">
@@ -21,6 +20,6 @@
 <link rel="stylesheet" href="{{ asset('assets-front/css/plugins/ion.rangeSlider.min.css') }}">
 <link rel="stylesheet" href="{{ asset('assets-front/css/plugins/photoswipe.css') }}">
 <link rel="stylesheet" href="{{ asset('assets-front/css/plugins/photoswipe-default-skin.css') }}">
-<link rel="stylesheet" href="{{ asset('assets-front/css/plugins/magnific-popup.css') }}">
 <link rel="stylesheet" href="{{ asset('assets-front/css/plugins/slick.css') }}">
 <link rel="stylesheet" href="{{ asset('assets-front/css/style.min.css') }}">
+<link rel="stylesheet" href="{{ asset('assets-front/css/plugins/magnific-popup.css') }}">

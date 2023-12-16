@@ -10,11 +10,12 @@
          <div class="col-lg-4 col-12 learts-mb-30">
             <div class="sale-banner7">
                <div class="inner">
+               <a class="btn-gallery image-gallery" href="{{ asset('public').'/'.$prodImages->product_images }}">
                   <div class="image">
-                     <a class="btn-gallery">
                      <img src="{{ asset('public').'/'.$prodImages->product_images }}" alt="Sale Banner Image" class="btn-gallery">
-                     </a>
                   </div>
+                  </a>
+
                   <!-- <div class="content display-flrx-content">
                      <div>
                         <h2 class="title">

@@ -59,24 +59,54 @@
 <script src="{{ asset('assets-front/js/plugins/ResizeSensor.js') }}"></script>
 <script src="{{ asset('assets-front/js/plugins/jquery.sticky-sidebar.min.js') }}"></script>
 <script src="{{ asset('assets-front/js/plugins/product360.js') }}"></script>
-<script src="{{ asset('assets-front/js/plugins/jquery.magnific-popup.min.js') }}"></script>
 <script src="{{ asset('assets-front/js/plugins/jquery.scrollUp.min.js') }}"></script>
 <script src="{{ asset('assets-front/js/plugins/scrollax.min.js') }}"></script>
 <script src="{{ asset('assets-front/js/main.js') }}"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+<script src="{{ asset('assets-front/js/plugins/jquery.magnific-popup.min.js') }}"></script>
+
+
 <script>
 $(document).ready(function() {
-        $('a.btn-gallery').on('click', function(event) {
-                event.preventDefault();
-                var gallery = $(this).attr('href');
-                $(gallery).magnificPopup({
-        delegate: 'a',
-                type:'image',
-                gallery: {
-                        enabled: true
-                }
-                }).magnificPopup('open');
-        });
+       
+$('.image-gallery').magnificPopup({
+
+type: 'image',
+
+mainClass: 'mfp-with-zoom',
+
+gallery: {
+
+    enabled: true
+
+},
+
+
+
+zoom: {
+
+    enabled: true,
+
+
+
+    duration: 300, // duration of the effect, in milliseconds
+
+    easing: 'ease-in-out', // CSS transition easing function
+
+
+
+    opener: function(openerElement) {
+
+
+
+        return openerElement.is('img') ? openerElement : openerElement.find('img');
+
+    }
+
+}
+
+
+
+});
 });
 (function () {
 var options = {

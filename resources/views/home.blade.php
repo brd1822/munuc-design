@@ -102,91 +102,91 @@
    <div class="container">
       <h5 class="feature-heading">COLLECTION RANGE</h5>
       <div class="instafeed instafeed-carousel instafeed-carousel1">
-         <a class="instafeed-item" href="#">
+         <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/1.jpeg') }}">
          <img src="{{ asset('assets-front/munucdesigns_img/collection/1.jpeg') }}" alt="instagram image" />
          </a>
-         <a class="instafeed-item" href="#">
+         <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/2.jpeg') }}">
          <img src="{{ asset('assets-front/munucdesigns_img/collection/2.jpeg') }}" alt="instagram image" />
          </a>
-         <a class="instafeed-item" href="#">
+         <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/3.jpeg') }}">
          <img src="{{ asset('assets-front/munucdesigns_img/collection/3.jpeg') }}" alt="instagram image" />
          </a>
-         <a class="instafeed-item" href="#">
+         <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/4.jpeg') }}">
          <img src="{{ asset('assets-front/munucdesigns_img/collection/4.jpeg') }}" alt="instagram image" />
          </a>
-         <a class="instafeed-item" href="#">
+         <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/5.jpeg') }}">
          <img src="{{ asset('assets-front/munucdesigns_img/collection/5.jpeg') }}" alt="instagram image" />
          </a>
-         <a class="instafeed-item" href="#">
+         <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/6.jpeg') }}">
          <img src="{{ asset('assets-front/munucdesigns_img/collection/6.jpeg') }}" alt="instagram image" />
          </a>
-         <a class="instafeed-item" href="#">
+         <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/7.jpeg') }}">
          <img src="{{ asset('assets-front/munucdesigns_img/collection/7.jpeg') }}" alt="instagram image" />
          </a>
-         <a class="instafeed-item" href="#">
+         <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/8.jpeg') }}">
          <img src="{{ asset('assets-front/munucdesigns_img/collection/8.jpeg') }}" alt="instagram image" />
          </a>
-         <a class="instafeed-item" href="#">
+         <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/9.jpeg') }}">
          <img src="{{ asset('assets-front/munucdesigns_img/collection/9.jpeg') }}" alt="instagram image" />
          </a>
-         <a class="instafeed-item" href="#">
+         <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/10.jpeg') }}">
          <img src="{{ asset('assets-front/munucdesigns_img/collection/10.jpeg') }}" alt="instagram image" />
          </a>
-         <a class="instafeed-item" href="#">
+         <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/11.jpeg') }}">
          <img src="{{ asset('assets-front/munucdesigns_img/collection/11.jpeg') }}" alt="instagram image" />
          </a>
-         <a class="instafeed-item" href="#">
+         <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/12.jpeg') }}">
          <img src="{{ asset('assets-front/munucdesigns_img/collection/12.jpeg') }}" alt="instagram image" />
          </a>
-         <a class="instafeed-item" href="#">
+         <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/13.jpeg') }}">
          <img src="{{ asset('assets-front/munucdesigns_img/collection/13.jpeg') }}" alt="instagram image" />
          </a>
-         <a class="instafeed-item" href="#">
+         <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/14.jpeg') }}">
          <img src="{{ asset('assets-front/munucdesigns_img/collection/14.jpeg') }}" alt="instagram image" />
          </a>
-         <a class="instafeed-item" href="#">
+         <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/15.jpeg') }}">
          <img src="{{ asset('assets-front/munucdesigns_img/collection/15.jpeg') }}" alt="instagram image" />
          </a>
-         <a class="instafeed-item" href="#">
+         <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/16.jpeg') }}">
          <img src="{{ asset('assets-front/munucdesigns_img/collection/16.jpeg') }}" alt="instagram image" />
          </a>
-         <a class="instafeed-item" href="#">
+         <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/17.jpeg') }}">
          <img src="{{ asset('assets-front/munucdesigns_img/collection/17.jpeg') }}" alt="instagram image" />
          </a>
-         <a class="instafeed-item" href="#">
+         <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/18.jpeg') }}">
          <img src="{{ asset('assets-front/munucdesigns_img/collection/18.jpeg') }}" alt="instagram image" />
          </a>
-         <a class="instafeed-item" href="#">
+         <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/19.jpeg') }}">
          <img src="{{ asset('assets-front/munucdesigns_img/collection/19.jpeg') }}" alt="instagram image" />
          </a>
-         <a class="instafeed-item" href="#">
+         <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/20.jpeg') }}">
          <img src="{{ asset('assets-front/munucdesigns_img/collection/20.jpeg') }}" alt="instagram image" />
          </a>
-         <a class="instafeed-item" href="#">
+         <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/21.jpeg') }}">
          <img src="{{ asset('assets-front/munucdesigns_img/collection/21.jpeg') }}" alt="instagram image" />
          </a>
-         <a class="instafeed-item" href="#">
+         <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/22.jpeg') }}">
          <img src="{{ asset('assets-front/munucdesigns_img/collection/22.jpeg') }}" alt="instagram image" />
          </a>
-         <a class="instafeed-item" href="#">
+         <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/23.jpeg') }}">
          <img src="{{ asset('assets-front/munucdesigns_img/collection/23.jpeg') }}" alt="instagram image" />
          </a>
-         <a class="instafeed-item" href="#">
+         <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/24.jpeg') }}">
          <img src="{{ asset('assets-front/munucdesigns_img/collection/24.jpeg') }}" alt="instagram image" />
          </a>
-         <a class="instafeed-item" href="#">
+         <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/25.jpeg') }}">
          <img src="{{ asset('assets-front/munucdesigns_img/collection/25.jpeg') }}" alt="instagram image" />
          </a>
-         <a class="instafeed-item" href="#">
+         <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/26.jpeg') }}">
          <img src="{{ asset('assets-front/munucdesigns_img/collection/26.jpeg') }}" alt="instagram image" />
          </a>
-         <a class="instafeed-item" href="#">
+         <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/27.jpeg') }}">
          <img src="{{ asset('assets-front/munucdesigns_img/collection/27.jpeg') }}" alt="instagram image" />
          </a>
-         <a class="instafeed-item" href="#">
+         <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/28.jpeg') }}">
          <img src="{{ asset('assets-front/munucdesigns_img/collection/28.jpeg') }}" alt="instagram image" />
          </a>
-         <a class="instafeed-item" href="#">
+         <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/29.jpeg') }}">
          <img src="{{ asset('assets-front/munucdesigns_img/collection/29.jpeg') }}" alt="instagram image" />
          </a>
       </div>
@@ -394,4 +394,5 @@
       </div>
    </div>
 </div>
+
 @endsection
