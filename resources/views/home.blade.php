@@ -11,7 +11,7 @@
                   <img src="{{ asset('assets-front/munucdesigns_img/banner.jpeg') }}" alt="Home 4 Slider Image">
                </div>
                <div class="home4-slide-content">
-                  <div class="content-text-d-flex">
+                  <div class="content-text-d-flex text-mask-reveal">
                      <span class="category">Unwind in Luxury: Find Your Perfect Match among Our Bed Sheets, Bedding Sets, Covers, Comforters & Blankets.</span>
                      <h2 class="title">"Versatility Redefined: Discover Home Furnishings that Seamlessly Blend Classic Charm with Modern Appeal." </h2>
                      <!-- <div class="link"><a href="#" class="btn btn-warning btn-outline-hover-warning">LEARN MORE</a></div> -->
@@ -76,12 +76,12 @@
    </div>
 </div>
 <!-- Product & Banner Section End -->
-<div class="section subscribe-bg section-padding pt-0">
+<!-- <div class="section subscribe-bg section-padding pt-0">
    <div class="container">
       <div class="row learts-mb-n30">
          <div class="col learts-mb-30">
             <div class="sale-banner8">
-               <!--<img src="{{ asset('assets-front/munucdesigns_img/bg-img.png') }}" alt="Sale Banner Image">-->
+               <img src="{{ asset('assets-front/munucdesigns_img/bg-img.png') }}" alt="Sale Banner Image">
                <div class="content">
                   <h2 class="title text-uppercase">Subscribe</h2>
                   <p class="text-white">Get 5% off your first purchase when you sign up for our newsletter!</p>
@@ -96,7 +96,7 @@
          </div>
       </div>
    </div>
-</div>
+</div> -->
 <!-- COLLECTION RANGE Section Start -->
 <div class="section section-fluid section-padding">
    <div class="container">

@@ -4,7 +4,10 @@
 <!--Collection section Start-->
 <div class="section learts-mt-40 mb-3">
    <div class="container">
-      <h5 class="feature-heading">PRODUCT CATEGORIES - @foreach($categorys as $cat) {{$cat->category_name}}, @endforeach</h5>
+      <!-- <h5 class="feature-heading">
+         <span style="color: #eede97;
+    font-weight: bold;">PRODUCT CATEGORIES:-
+    </span> @foreach($categorys as $cat) {{ strtoupper($cat->category_name) }}, @endforeach</h5> -->
       <div class="row learts-mb-n30">
       @if(!empty($categorys))
       @foreach($categorys as $cat)
@@ -16,7 +19,7 @@
                   <div class="content display-flrx-content">
                      <div>
                         <h2 class="title">
-                        {{$cat->category_name}}
+                        {{ $cat->category_name}}
                         </h2>
                      </div>
                   </div>

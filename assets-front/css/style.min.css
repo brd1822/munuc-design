@@ -17310,3 +17310,59 @@ select.contact-selct {
     background: transparent;
     border: 0;
 }
+
+*, *::before, *::after { box-sizing: border-box; }
+
+:root{
+    --bg-color: #D8D8D8;
+}
+.text-mask-reveal span{
+    position: relative;
+    overflow: hidden;
+    display: block;
+    line-height: 1.2;
+}
+
+.text-mask-reveal span::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--bg-color);
+    animation: animated-mask-after 3s cubic-bezier(.77,0,.18,1) forwards;
+    transform: translateX(-100%);
+}
+ 
+/* .text-mask-reveal span::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--bg-color);
+    animation: animated-mask-before 3s cubic-bezier(.77,0,.18,1) forwards;
+    transform: translateX(0);
+} */
+
+.text-mask-reveal span:nth-of-type(1)::before,
+.text-mask-reveal span:nth-of-type(1)::after{
+    animation-delay: 1s;
+}
+
+.text-mask-reveal span:nth-of-type(2)::before,
+.text-mask-reveal span:nth-of-type(2)::after{
+    animation-delay: 1.5s;
+}
+
+@keyframes animated-mask-after{
+    0% {transform: translateX(-100%)}
+    100% {transform: translateX(101%)}
+}
+
+@keyframes animated-mask-before{
+    0% {transform: translateX(0)}
+    100% {transform: translateX(200%)}
+}

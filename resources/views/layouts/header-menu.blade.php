@@ -5,7 +5,7 @@
          <!-- Header Language & Currency Start -->
          <div class="col">
             <div class="header-tools left-sidebar justify-content-start">
-               <div class="header-login">
+               <!-- <div class="header-login">
                   <a href="{{ route('/') }}" class="social-icon">
                      <svg viewBox="0 0 24 24" fill="currentColor" width="40px" height="40px" data-ux="IconSocial" marginhorizontal="0" class="x-el x-el-svg c1-1 c1-2 c1-2x c1-2y c1-2z c1-30 c1-31 c1-32 c1-33 c1-b c1-c c1-d c1-e c1-f c1-g">
                         <g>
@@ -51,7 +51,7 @@
                         </g>
                      </svg>
                   </a>
-               </div>
+               </div> -->
             </div>
          </div>
          <!-- Header Language & Currency End -->
@@ -65,7 +65,7 @@
          <!-- Header Tools Start -->
          <div class="col">
             <div class="header-tools justify-content-end">
-               <div class="header-login">
+               <!-- <div class="header-login">
                   <a href="tel:+91-945-751-5151" class="call-icon-cl">+91-945-751-5151</a>
                </div>
                <div class="header-search">
@@ -76,7 +76,7 @@
                </div>
                <div class="header-login">
                   <a href="#"><i class="fa fa-whatsapp"></i></a>
-               </div>
+               </div> -->
             </div>
          </div>
          <!-- Header Tools End -->
@@ -94,7 +94,7 @@
                   <a href="{{ route('aboutUs') }}"><span class="menu-text">About Us</span></a>
                </li>
                <li class="<?php if(Request()->segment(1) == 'collections'){ echo 'active';}else{ echo '';} ?>">
-                  <a href="{{ route('collections') }}"><span class="menu-text">Collections</span></a>
+                  <a href="{{ route('collections') }}"><span class="menu-text">Product</span></a>
                </li>
                <li class="">
                   <!-- <a href="{{ route('/') }}"><span class="menu-text">Shop Now</span></a> -->
@@ -133,19 +133,19 @@
                   <li class="ac">
                      <a href="{{ route('/') }}"><span class="menu-text text-black">Home</span></a>
                   </li>
-                  <li class="">
+                  <li class="<?php if(Request()->segment(1) == 'about-us'){ echo 'active';}else{ echo '';} ?>">
                      <a href="{{ route('aboutUs') }}"><span class="menu-text">About Us</span></a>
                   </li>
-                  <li class="">
-                     <a href="{{ route('collections') }}"><span class="menu-text">Collections</span></a>
+                  <li class="<?php if(Request()->segment(1) == 'collections'){ echo 'active';}else{ echo '';} ?>">
+                     <a href="{{ route('collections') }}"><span class="menu-text">Product</span></a>
                   </li>
                   <li class="">
                      <!-- <a href="{{ route('/') }}"><span class="menu-text">Shop Now</span></a> -->
                   </li>
-                  <li class="">
+                  <li class="<?php if(Request()->segment(1) == 'blog'){ echo 'active';}else{ echo '';} ?>">
                      <a href="{{ route('/') }}"><span class="menu-text">Blog</span></a>
                   </li>
-                  <li class="">
+                  <li class="<?php if(Request()->segment(1) == 'contact-us'){ echo 'active';}else{ echo '';} ?>">
                      <a href="{{ route('contactUs') }}"><span class="menu-text">Contact Us</span></a>
                   </li>
                   <li class="">
@@ -182,9 +182,9 @@
                <div class="header-wishlist d-none d-sm-block">
                   <a href="#offcanvas-wishlist" class="offcanvas-toggle"><span class="wishlist-count">3</span><i class="far fa-heart"></i></a>
                </div>
-               <div class="header-cart">
+               <!-- <div class="header-cart">
                   <a href="#offcanvas-cart"><span class="cart-count">3</span><i class="fas fa-shopping-cart"></i></a>
-               </div>
+               </div> -->
                <div class="mobile-menu-toggle">
                   <a href="#offcanvas-mobile-menu" class="offcanvas-toggle">
                      <svg viewBox="0 0 800 600">
@@ -215,10 +215,10 @@
          <!-- Header Tools Start -->
          <div class="col-auto">
             <div class="header-tools justify-content-end">
-               <div class="header-login d-none d-sm-block">
+               <!-- <div class="header-login d-none d-sm-block">
                   <a href="my-account.html"><i class="far fa-user"></i></a>
-               </div>
-               <div class="header-search d-none d-sm-block">
+               </div> -->
+               <!-- <div class="header-search d-none d-sm-block">
                   <a href="#offcanvas-search" class="offcanvas-toggle"><i class="fas fa-search"></i></a>
                </div>
                <div class="header-wishlist d-none d-sm-block">
@@ -226,7 +226,7 @@
                </div>
                <div class="header-cart">
                   <a href="#offcanvas-cart" class="offcanvas-toggle"><span class="cart-count">3</span><i class="fas fa-shopping-cart"></i></a>
-               </div>
+               </div> -->
                <div class="mobile-menu-toggle">
                   <a href="#offcanvas-mobile-menu" class="offcanvas-toggle">
                      <svg viewBox="0 0 800 600">
@@ -261,7 +261,7 @@
                   <a href="{{ route('aboutUs') }}"><span class="menu-text">About Us</span></a>
                </li>
                <li class="<?php if(Request()->segment(1) == 'collections'){ echo 'active';}else{ echo '';} ?>">
-                  <a href="{{ route('collections') }}"><span class="menu-text">Collections</span></a>
+                  <a href="{{ route('collections') }}"><span class="menu-text">Product</span></a>
                </li>
                <li class="">
                   <!-- <a href="{{ route('/') }}"><span class="menu-text">Shop Now</span></a> -->
@@ -278,7 +278,7 @@
          </ul>
       </div>
       <div class="offcanvas-buttons">
-         <div class="header-tools">
+         <!-- <div class="header-tools">
             <div class="header-login">
                <a href="my-account.html"><i class="far fa-user"></i></a>
             </div>
@@ -288,7 +288,7 @@
             <div class="header-cart">
                <a href="shopping-cart.html"><span class="cart-count">3</span><i class="fas fa-shopping-cart"></i></a>
             </div>
-         </div>
+         </div> -->
       </div>
       <div class="offcanvas-social">
          <a href="#" class="social-icon">
@@ -299,7 +299,7 @@
                </g>
             </svg>
          </a>
-         <a href="#" class="social-icon">
+         <a href="https://www.instagram.com/munucdesigns/?utm_source=qr&igshid=YzU1NGVlODEzOA%3D%3D" target="_blank" class="social-icon">
             <svg viewBox="0 0 24 24" fill="currentColor" width="40px" height="40px" data-ux="IconSocial" marginhorizontal="0" class="x-el x-el-svg c1-1 c1-2 c1-2x c1-2y c1-2z c1-30 c1-31 c1-32 c1-33 c1-b c1-c c1-d c1-e c1-f c1-g">
                <g fill="#E1306C">
                   <path d="M14.667 12a2.57 2.57 0 0 0-.782-1.885A2.57 2.57 0 0 0 12 9.333a2.57 2.57 0 0 0-1.885.782A2.57 2.57 0 0 0 9.333 12c0 .736.26 1.365.782 1.885.52.521 1.149.782 1.885.782a2.57 2.57 0 0 0 1.885-.782c.521-.52.782-1.149.782-1.885zm1.437 0c0 1.139-.4 2.108-1.198 2.906-.798.799-1.767 1.198-2.906 1.198-1.139 0-2.108-.4-2.906-1.198-.799-.798-1.198-1.767-1.198-2.906 0-1.139.4-2.108 1.198-2.906.798-.799 1.767-1.198 2.906-1.198 1.139 0 2.108.4 2.906 1.198.799.798 1.198 1.767 1.198 2.906zm1.125-4.27c0 .263-.094.489-.281.676a.923.923 0 0 1-.677.282.923.923 0 0 1-.677-.282.923.923 0 0 1-.281-.677c0-.264.093-.49.28-.677a.923.923 0 0 1 .678-.281c.264 0 .49.094.677.281a.923.923 0 0 1 .281.677zM12 5.437l-.797-.006a56.514 56.514 0 0 0-1.099 0c-.25.004-.585.014-1.005.032-.42.017-.778.052-1.073.104a4.177 4.177 0 0 0-.745.192c-.347.14-.653.34-.916.605-.264.263-.466.569-.605.916-.076.202-.14.45-.192.745a8.255 8.255 0 0 0-.104 1.073c-.018.42-.028.755-.032 1.005-.003.25-.003.616 0 1.1l.006.796-.006.797c-.003.483-.003.849 0 1.099.004.25.014.585.032 1.005.017.42.052.778.104 1.073.052.295.116.543.192.745.14.347.34.653.605.916.263.264.569.466.916.605.202.076.45.14.745.192.295.052.653.087 1.073.104.42.018.755.028 1.005.032.25.003.616.003 1.1 0l.796-.005.797.005c.483.003.849.003 1.099 0 .25-.004.585-.014 1.005-.032.42-.017.778-.052 1.073-.104.295-.052.543-.116.745-.192.347-.14.653-.34.916-.605.264-.263.466-.569.605-.916.076-.202.14-.45.192-.745.052-.295.087-.653.104-1.073.018-.42.028-.755.032-1.005.003-.25.003-.616 0-1.1L18.562 12l.006-.797c.003-.483.003-.849 0-1.099a38.59 38.59 0 0 0-.032-1.005 8.255 8.255 0 0 0-.104-1.073 4.177 4.177 0 0 0-.192-.745 2.703 2.703 0 0 0-.605-.916 2.703 2.703 0 0 0-.916-.605 4.177 4.177 0 0 0-.745-.192 8.255 8.255 0 0 0-1.073-.104c-.42-.018-.755-.028-1.005-.032-.25-.003-.616-.003-1.1 0L12 5.438zM20 12c0 1.59-.017 2.691-.052 3.302-.07 1.445-.5 2.563-1.292 3.354-.791.792-1.91 1.222-3.354 1.292-.611.035-1.712.052-3.302.052s-2.691-.017-3.302-.052c-1.445-.07-2.563-.5-3.354-1.292-.792-.791-1.222-1.91-1.292-3.354C4.017 14.691 4 13.59 4 12s.017-2.691.052-3.302c.07-1.445.5-2.563 1.292-3.354.791-.792 1.91-1.222 3.354-1.292C9.309 4.017 10.41 4 12 4s2.691.017 3.302.052c1.445.07 2.563.5 3.354 1.292.792.791 1.222 1.91 1.292 3.354.035.611.052 1.712.052 3.302z"></path>

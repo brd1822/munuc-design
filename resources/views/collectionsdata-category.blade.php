@@ -4,7 +4,7 @@
 <!--Collection section Start-->
 <div class="section learts-mt-40 mb-3">
    <div class="container">
-      <h5 class="feature-heading">PRODUCT CATEGORIES - {{ $category->category_name }}</h5>
+      <!-- <h5 class="feature-heading">PRODUCT CATEGORIES - {{ $category->category_name }}</h5> -->
       <div class="row learts-mb-n30">
       @if(!empty($Products))
       @foreach($Products as $prodt)
