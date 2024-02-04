@@ -49,58 +49,10 @@
    </div>
 </div>
 <!-- About Section End -->
-<!-- Product & Banner Section Start -->
-<div class="section learts-mt-40 mb-5">
-   <div class="container">
-      <h5 class="feature-heading">EXPLORE MORE PRODUCTS</h5>
-      <div class="row learts-mb-n30">
-      @if(!empty($categorys))
-      @foreach($categorys as $cat)
-         <div class="col-lg-4 col-12 learts-mb-30">
-            <div class="sale-banner7">
-            <a href="{{ route('collections-cat',$cat->id) }}">
-               <div class="inner">
-                  <div class="image"><img src="{{ asset('public').'/'.$cat->image }}" alt="Sale Banner Image"></div>
-                  <div class="content display-flrx-content">
-                     <div>
-                        <h2 class="title">{{$cat->category_name}}</h2>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            </a>
-         </div>
-      @endforeach
-      @endif
-      </div>
-   </div>
-</div>
-<!-- Product & Banner Section End -->
-<!-- <div class="section subscribe-bg section-padding pt-0">
-   <div class="container">
-      <div class="row learts-mb-n30">
-         <div class="col learts-mb-30">
-            <div class="sale-banner8">
-               <img src="{{ asset('assets-front/munucdesigns_img/bg-img.png') }}" alt="Sale Banner Image">
-               <div class="content">
-                  <h2 class="title text-uppercase">Subscribe</h2>
-                  <p class="text-white">Get 5% off your first purchase when you sign up for our newsletter!</p>
-                  <div class="newlwtter-form">
-                     <form id="mc-form" class="mc-form widget-subscibe2" novalidate="true">
-                        <input id="mc-email" autocomplete="off" type="email" placeholder="Email" name="EMAIL">
-                        <a href="#" class="btn btn-warning btn-hover-warning">Sign Up</a>
-                     </form>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-</div> -->
 <!-- COLLECTION RANGE Section Start -->
 <div class="section section-fluid section-padding">
    <div class="container">
-      <h5 class="feature-heading">COLLECTION RANGE</h5>
+      <h5 class="feature-heading">PRODUCTS RANGE</h5>
       <div class="instafeed instafeed-carousel instafeed-carousel1">
          <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/1.jpeg') }}">
          <img src="{{ asset('assets-front/munucdesigns_img/collection/1.jpeg') }}" alt="instagram image" />
@@ -192,13 +144,61 @@
       </div>
    </div>
 </div>
-
 <!-- COLLECTION RANGE Section End -->
+<!-- Product & Banner Section Start -->
+<div class="section learts-mt-40 mb-5">
+   <div class="container">
+      <!-- <h5 class="feature-heading">EXPLORE MORE PRODUCTS</h5> -->
+      <div class="row learts-mb-n30">
+      @if(!empty($categorys))
+      @foreach($categorys as $cat)
+         <div class="col-lg-4 col-12 learts-mb-30">
+            <div class="sale-banner7">
+            <a href="{{ route('collections-cat',$cat->id) }}">
+               <div class="inner">
+                  <div class="image"><img src="{{ asset('public').'/'.$cat->image }}" alt="Sale Banner Image"></div>
+                  <div class="content display-flrx-content">
+                     <div>
+                        <h2 class="title">{{$cat->category_name}}</h2>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            </a>
+         </div>
+      @endforeach
+      @endif
+      </div>
+   </div>
+</div>
+<!-- Product & Banner Section End -->
+<!-- <div class="section subscribe-bg section-padding pt-0">
+   <div class="container">
+      <div class="row learts-mb-n30">
+         <div class="col learts-mb-30">
+            <div class="sale-banner8">
+               <img src="{{ asset('assets-front/munucdesigns_img/bg-img.png') }}" alt="Sale Banner Image">
+               <div class="content">
+                  <h2 class="title text-uppercase">Subscribe</h2>
+                  <p class="text-white">Get 5% off your first purchase when you sign up for our newsletter!</p>
+                  <div class="newlwtter-form">
+                     <form id="mc-form" class="mc-form widget-subscibe2" novalidate="true">
+                        <input id="mc-email" autocomplete="off" type="email" placeholder="Email" name="EMAIL">
+                        <a href="#" class="btn btn-warning btn-hover-warning">Sign Up</a>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div> -->
+
 <div class="section testimonial-bg-img section-padding">
    <div class="container">
       <div class="row learts-mb-n30">
          <div class="col-md-12 mb-3">
-            <h2 class="title text-uppercase">What our customer think about us</h2>
+            <h2 class="title text-uppercase">Customer Reviews</h2>
          </div>
          <div class="testimonial-carousel mt-3 mb-4">
             <div class="col">
@@ -305,9 +305,9 @@
    <div class="container">
       <div class="row learts-mb-n30">
          <div class="col-md-12 mb-1">
-            <h2 class="title text-uppercase">Online commentary</h2>
+            <h2 class="title text-uppercase">Blogs</h2>
          </div>
-         <div class="col-md-12 mb-4 text-center blog-a">
+         <!-- <div class="col-md-12 mb-4 text-center blog-a">
             <a href="javascript:void();" class="active">
             <b>All Posts </b>
             </a>
@@ -317,7 +317,7 @@
             <a href="javascript:void();">
             Home Furnishing
             </a> 
-         </div>
+         </div> -->
          <div class="row row-cols-xl-4 row-cols-md-2 row-cols-1 learts-mb-n40 mb-2">
             <div class="col learts-mb-40">
                <div class="blog">
