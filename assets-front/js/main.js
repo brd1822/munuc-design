@@ -332,6 +332,7 @@
     // Home 4 Slider
     var $home4Slider = new Swiper('.home4-slider', {
         loop: true,
+        nav:true,
         loopedSlides: 2,
         speed: 750,
         spaceBetween: 200,
@@ -640,7 +641,7 @@
     $('.instafeed-carousel1').slick({
         infinite: true,
         autoplay: true,
-        slidesToShow: 3,
+        slidesToShow: 4,
         slidesToScroll: 1,
         prevArrow: '<button class="slick-prev"><i class="ti-angle-left"></i></button>',
         nextArrow: '<button class="slick-next"><i class="ti-angle-right"></i></button>',

@@ -4,22 +4,59 @@
 <!-- Slider main container Start -->
 <div class="section animate__animated animate__backInUp animate__delay-1s">
    <div class="container">
-      <div class="swiper-container">
-         <div class="swiper-wrapper">
-            <div class="home4-slide-item swiper-slide banner-img">
-               <div class="home4-slide-image">
-                  <img src="{{ asset('assets-front/munucdesigns_img/banner.jpeg') }}" alt="Home 4 Slider Image">
+     <div class="row">
+     <div class="col-md-8 pl-0 pr-0 banner-h-img">
+      <div class="home4-slider swiper-container">
+            <div class="swiper-wrapper">
+               <div class="home4-slide-item swiper-slide banner-img" data-swiper-autoplay="5000">
+                  <div class="home4-slide-image">
+                     <img src="{{ asset('assets-front/munucdesigns_img/banner.jpeg') }}" alt="Home 4 Slider Image">
+                  </div>              
                </div>
-               <div class="home4-slide-content">
-                  <div class="content-text-d-flex text-mask-reveal">
-                     <span class="category">Unwind in Luxury: Find Your Perfect Match among Our Bed Sheets, Bedding Sets, Covers, Comforters & Blankets.</span>
-                     <h2 class="title">"Versatility Redefined: Discover Home Furnishings that Seamlessly Blend Classic Charm with Modern Appeal." </h2>
-                     <!-- <div class="link"><a href="#" class="btn btn-warning btn-outline-hover-warning">LEARN MORE</a></div> -->
+               <div class="home4-slide-item swiper-slide banner-img" data-swiper-autoplay="5000">
+                  <div class="home4-slide-image">
+                     <img src="{{ asset('assets-front/munucdesigns_img/collection/7.jpeg') }}" alt="Home 4 Slider Image">
+                  </div>              
+               </div>
+               <div class="home4-slide-item swiper-slide banner-img" data-swiper-autoplay="5000">
+                  <div class="home4-slide-image">
+                     <img src="{{ asset('assets-front/munucdesigns_img/collection/8.jpeg') }}" alt="Home 4 Slider Image">
+                  </div>             
+               </div>
+               <div class="home4-slide-item swiper-slide banner-img" data-swiper-autoplay="5000">
+                  <div class="home4-slide-image">
+                     <img src="{{ asset('assets-front/munucdesigns_img/collection/9.jpeg') }}" alt="Home 4 Slider Image">
                   </div>
                </div>
             </div>
-         </div>
+           </div>
+           <div class="home4-slider-prev swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide"><i class="ti-angle-left"></i></div>
+            <div class="home4-slider-next swiper-button-next" tabindex="0" role="button" aria-label="Next slide"><i class="ti-angle-right"></i></div>
+        
       </div>
+     <div class="col-md-4 pl-0 pr-0">
+      <div class="swiper-container">
+            <div class="swiper-wrapper">
+               <div class="home4-slide-item swiper-slide banner-img">            
+                  <div class="home4-slide-content">
+                     <div class="content-text-d-flex text-mask-reveal">
+                       <div>
+                       <span class="category typewriter">Unwind in Luxury: Find Your</span>
+                        <span class="category typewriter">Perfect Match among Our</span>
+                        <span class="category typewriter">Bed Sheets, Bedding Sets,</span>
+                        <span class="category typewriter">Covers, Comforters & Blankets.</span>
+                       </div>
+                        <h2 class="title">"Versatility Redefined: Discover Home Furnishings that Seamlessly Blend Classic Charm with Modern Appeal." </h2>
+                        <!-- <div class="link"><a href="#" class="btn btn-warning btn-outline-hover-warning">LEARN MORE</a></div> -->
+                     </div>
+                  </div>
+               </div>
+            
+            </div>
+            </div>
+      </div>
+   </div>
+     </div>
    </div>
 </div>
 <!-- Slider main container End -->
@@ -152,7 +189,7 @@
       <div class="row learts-mb-n30">
       @if(!empty($categorys))
       @foreach($categorys as $cat)
-         <div class="col-lg-4 col-12 learts-mb-30">
+         <div class="col-lg-3 col-12 learts-mb-30">
             <div class="sale-banner7">
             <a href="{{ route('collections-cat',$cat->id) }}">
                <div class="inner">
