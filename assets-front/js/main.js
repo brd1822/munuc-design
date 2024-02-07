@@ -799,6 +799,33 @@
         });
     });
 
+
+    var zoom = $('.mfp-img').attr('src');
+    $('.mfp-img').append('<img class="zoom" src="'+zoom+'">');
+    $('.mfp-img').mouseenter(function(){
+      $(this).mousemove(function(event){
+        var offset = $(this).offset();
+        var left = event.pageX - offset.left;
+        var top = event.pageY - offset.top;
+        
+        $(this).find('.zoom').css({
+          width: '200%',
+          opacity: 1,
+          left: -left,
+          top: -top,
+        });
+      });
+    });
+    
+    $('.mfp-img').mouseleave(function(){
+      $(this).find('.zoom').css({
+        width: '100%',
+        opacity: 0,
+        left: 0,
+        top: 0,
+      });
+    });
+
     /*--
         Sticky Sidebar
     -----------------------------------*/

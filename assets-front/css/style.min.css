@@ -9664,7 +9664,7 @@ only screen and (max-width:767px) {
 }
 
 .sale-banner7 {
-    height: 325px;
+    height: auto;
 }
 
 .sale-banner7 .inner {
@@ -17764,3 +17764,31 @@ span {
         width: 100;
     }
 }
+
+.zoom-popup-img {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    width: 45px;
+    right: 15px;
+    bottom: 23px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background: #fff;
+    color: #333;
+    transition: opacity .25s ease-in-out,visibility .25s ease-in-out,transform .25s ease-in-out,color .25s ease-in-out;
+    /* z-index: 1; */
+}
+
+
+.mfp-figure{   
+    cursor: zoom-in;
+    overflow: hidden;
+  }
+  
+  .mfp-figure img.zoom{
+    position: absolute;
+    transition: width 0.2s ease-out, opacity 0.2s ease-out 0.2s; 
+  }
