@@ -6,7 +6,7 @@
    <div class="container">
       <div class="row learts-mb-n50">
          <div class="col-md-12 image">
-            <img src="{{ asset('assets-front/about.jpg') }}" style="height: 640px;
+          <img class="lazyload" data-src="{{ asset('assets-front/about.jpg') }}" style="height: 640px;
     width: 1200px;" />
             <h2 class="title title-same-theme mt-3">About Us - MUNUC DESIGNS - Innovating Textile Excellence</h2>
          </div>

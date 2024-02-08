@@ -27,7 +27,7 @@
                   <div class="blog">
                      <div class="image">
                         <a href="blog_details.html">
-                        <img src="{{ asset('assets-front/munucdesigns_img/blog/b1.png') }}" alt="Blog Image">
+                        <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/blog/b1.png') }}" alt="Blog Image">
                         </a>
                      </div>
                      <div class="content">
@@ -52,7 +52,7 @@
                   <div class="blog">
                      <div class="image">
                         <a href="blog_details.html">
-                        <img src="{{ asset('assets-front/munucdesigns_img/blog/b2.png') }}" alt="Blog Image">
+                        <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/blog/b2.png') }}" alt="Blog Image">
                         </a>
                      </div>
                      <div class="content">
@@ -77,7 +77,7 @@
                   <div class="blog">
                      <div class="image">
                         <a href="blog_details.html">
-                        <img src="{{ asset('assets-front/munucdesigns_img/blog/b4.png') }}" alt="Blog Image">
+                        <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/blog/b4.png') }}" alt="Blog Image">
                         </a>
                      </div>
                      <div class="content">
@@ -102,7 +102,7 @@
                   <div class="blog">
                      <div class="image">
                         <a href="blog_details.html">
-                        <img src="{{ asset('assets-front/munucdesigns_img/blog/b4.png') }}" alt="Blog Image">
+                        <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/blog/b4.png') }}" alt="Blog Image">
                         </a>
                      </div>
                      <div class="content">
@@ -131,7 +131,7 @@
                   <div class="blog">
                      <div class="image">
                         <a href="blog_details.html">
-                        <img src="{{ asset('assets-front/munucdesigns_img/blog/b1.png') }}" alt="Blog Image">
+                        <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/blog/b1.png') }}" alt="Blog Image">
                         </a>
                      </div>
                      <div class="content">
@@ -156,7 +156,7 @@
                   <div class="blog">
                      <div class="image">
                         <a href="blog_details.html">
-                        <img src="{{ asset('assets-front/munucdesigns_img/blog/b2.png') }}" alt="Blog Image">
+                        <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/blog/b2.png') }}" alt="Blog Image">
                         </a>
                      </div>
                      <div class="content">
@@ -181,7 +181,7 @@
                   <div class="blog">
                      <div class="image">
                         <a href="blog_details.html">
-                        <img src="{{ asset('assets-front/munucdesigns_img/blog/b4.png') }}" alt="Blog Image">
+                        <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/blog/b4.png') }}" alt="Blog Image">
                         </a>
                      </div>
                      <div class="content">
@@ -206,7 +206,7 @@
                   <div class="blog">
                      <div class="image">
                         <a href="blog_details.html">
-                        <img src="{{ asset('assets-front/munucdesigns_img/blog/b4.png') }}" alt="Blog Image">
+                        <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/blog/b4.png') }}" alt="Blog Image">
                         </a>
                      </div>
                      <div class="content">
@@ -235,7 +235,7 @@
                   <div class="blog">
                      <div class="image">
                         <a href="blog_details.html">
-                        <img src="{{ asset('assets-front/munucdesigns_img/blog/b1.png') }}" alt="Blog Image">
+                        <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/blog/b1.png') }}" alt="Blog Image">
                         </a>
                      </div>
                      <div class="content">
@@ -260,7 +260,7 @@
                   <div class="blog">
                      <div class="image">
                         <a href="blog_details.html">
-                        <img src="{{ asset('assets-front/munucdesigns_img/blog/b2.png') }}" alt="Blog Image">
+                        <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/blog/b2.png') }}" alt="Blog Image">
                         </a>
                      </div>
                      <div class="content">
@@ -285,7 +285,7 @@
                   <div class="blog">
                      <div class="image">
                         <a href="blog_details.html">
-                        <img src="{{ asset('assets-front/munucdesigns_img/blog/b4.png') }}" alt="Blog Image">
+                        <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/blog/b4.png') }}" alt="Blog Image">
                         </a>
                      </div>
                      <div class="content">
@@ -310,7 +310,7 @@
                   <div class="blog">
                      <div class="image">
                         <a href="blog_details.html">
-                        <img src="{{ asset('assets-front/munucdesigns_img/blog/b4.png') }}" alt="Blog Image">
+                        <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/blog/b4.png') }}" alt="Blog Image">
                         </a>
                      </div>
                      <div class="content">

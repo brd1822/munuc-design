@@ -1,6 +1,8 @@
 @extends('layouts.master')
 @section('title',"Home") 
 @section('content')
+@push('script')
+@endpush
 <!-- Slider main container Start -->
 <div class="section animate__animated animate__backInUp animate__delay-1s">
    <div class="container">
@@ -8,24 +10,24 @@
      <div class="col-md-8 pl-0 pr-0 banner-h-img">
       <div class="home4-slider swiper-container">
             <div class="swiper-wrapper">
+               <!-- <div class="home4-slide-item swiper-slide banner-img" data-swiper-autoplay="5000">
+                  <div class="home4-slide-image">
+                     <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/banner.jpeg') }}" alt="Home 4 Slider Image">
+                  </div>              
+               </div> -->
                <div class="home4-slide-item swiper-slide banner-img" data-swiper-autoplay="5000">
                   <div class="home4-slide-image">
-                     <img src="{{ asset('assets-front/munucdesigns_img/banner.jpeg') }}" alt="Home 4 Slider Image">
+                     <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/collection/7.jpeg') }}" alt="Home 4 Slider Image">
                   </div>              
                </div>
                <div class="home4-slide-item swiper-slide banner-img" data-swiper-autoplay="5000">
                   <div class="home4-slide-image">
-                     <img src="{{ asset('assets-front/munucdesigns_img/collection/7.jpeg') }}" alt="Home 4 Slider Image">
-                  </div>              
-               </div>
-               <div class="home4-slide-item swiper-slide banner-img" data-swiper-autoplay="5000">
-                  <div class="home4-slide-image">
-                     <img src="{{ asset('assets-front/munucdesigns_img/collection/8.jpeg') }}" alt="Home 4 Slider Image">
+                     <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/collection/8.jpeg') }}" alt="Home 4 Slider Image">
                   </div>             
                </div>
                <div class="home4-slide-item swiper-slide banner-img" data-swiper-autoplay="5000">
                   <div class="home4-slide-image">
-                     <img src="{{ asset('assets-front/munucdesigns_img/collection/9.jpeg') }}" alt="Home 4 Slider Image">
+                     <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/collection/9.jpeg') }}" alt="Home 4 Slider Image">
                   </div>
                </div>
             </div>
@@ -67,7 +69,7 @@
          <!-- About Us Image Start -->
          <div class="col-md-6 col-12 ms-lg-auto learts-mb-30 animate__animated animate__backInLeft animate__delay-4s">
             <div class="about-us-image">
-               <img src="{{ asset('assets-front/munucdesigns_img/aboutus.jpeg') }}" alt="About Image">
+               <img class="lazyload" class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/aboutus.jpeg') }}" alt="About Image">
             </div>
          </div>
          <!-- About Us Image End -->
@@ -92,91 +94,91 @@
       <h5 class="feature-heading">PRODUCTS RANGE</h5>
       <div class="instafeed instafeed-carousel instafeed-carousel1">
          <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/1.jpeg') }}">
-         <img src="{{ asset('assets-front/munucdesigns_img/collection/1.jpeg') }}" alt="instagram image" />
+         <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/collection/1.jpeg') }}" alt="instagram image" />
          </a>
          <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/2.jpeg') }}">
-         <img src="{{ asset('assets-front/munucdesigns_img/collection/2.jpeg') }}" alt="instagram image" />
+         <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/collection/2.jpeg') }}" alt="instagram image" />
          </a>
          <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/3.jpeg') }}">
-         <img src="{{ asset('assets-front/munucdesigns_img/collection/3.jpeg') }}" alt="instagram image" />
+         <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/collection/3.jpeg') }}" alt="instagram image" />
          </a>
          <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/4.jpeg') }}">
-         <img src="{{ asset('assets-front/munucdesigns_img/collection/4.jpeg') }}" alt="instagram image" />
+         <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/collection/4.jpeg') }}" alt="instagram image" />
          </a>
          <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/5.jpeg') }}">
-         <img src="{{ asset('assets-front/munucdesigns_img/collection/5.jpeg') }}" alt="instagram image" />
+         <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/collection/5.jpeg') }}" alt="instagram image" />
          </a>
          <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/6.jpeg') }}">
-         <img src="{{ asset('assets-front/munucdesigns_img/collection/6.jpeg') }}" alt="instagram image" />
+         <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/collection/6.jpeg') }}" alt="instagram image" />
          </a>
          <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/7.jpeg') }}">
-         <img src="{{ asset('assets-front/munucdesigns_img/collection/7.jpeg') }}" alt="instagram image" />
+         <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/collection/7.jpeg') }}" alt="instagram image" />
          </a>
          <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/8.jpeg') }}">
-         <img src="{{ asset('assets-front/munucdesigns_img/collection/8.jpeg') }}" alt="instagram image" />
+         <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/collection/8.jpeg') }}" alt="instagram image" />
          </a>
          <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/9.jpeg') }}">
-         <img src="{{ asset('assets-front/munucdesigns_img/collection/9.jpeg') }}" alt="instagram image" />
+         <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/collection/9.jpeg') }}" alt="instagram image" />
          </a>
          <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/10.jpeg') }}">
-         <img src="{{ asset('assets-front/munucdesigns_img/collection/10.jpeg') }}" alt="instagram image" />
+         <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/collection/10.jpeg') }}" alt="instagram image" />
          </a>
          <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/11.jpeg') }}">
-         <img src="{{ asset('assets-front/munucdesigns_img/collection/11.jpeg') }}" alt="instagram image" />
+         <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/collection/11.jpeg') }}" alt="instagram image" />
          </a>
          <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/12.jpeg') }}">
-         <img src="{{ asset('assets-front/munucdesigns_img/collection/12.jpeg') }}" alt="instagram image" />
+         <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/collection/12.jpeg') }}" alt="instagram image" />
          </a>
          <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/13.jpeg') }}">
-         <img src="{{ asset('assets-front/munucdesigns_img/collection/13.jpeg') }}" alt="instagram image" />
+         <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/collection/13.jpeg') }}" alt="instagram image" />
          </a>
          <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/14.jpeg') }}">
-         <img src="{{ asset('assets-front/munucdesigns_img/collection/14.jpeg') }}" alt="instagram image" />
+         <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/collection/14.jpeg') }}" alt="instagram image" />
          </a>
          <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/15.jpeg') }}">
-         <img src="{{ asset('assets-front/munucdesigns_img/collection/15.jpeg') }}" alt="instagram image" />
+         <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/collection/15.jpeg') }}" alt="instagram image" />
          </a>
          <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/16.jpeg') }}">
-         <img src="{{ asset('assets-front/munucdesigns_img/collection/16.jpeg') }}" alt="instagram image" />
+         <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/collection/16.jpeg') }}" alt="instagram image" />
          </a>
          <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/17.jpeg') }}">
-         <img src="{{ asset('assets-front/munucdesigns_img/collection/17.jpeg') }}" alt="instagram image" />
+         <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/collection/17.jpeg') }}" alt="instagram image" />
          </a>
          <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/18.jpeg') }}">
-         <img src="{{ asset('assets-front/munucdesigns_img/collection/18.jpeg') }}" alt="instagram image" />
+         <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/collection/18.jpeg') }}" alt="instagram image" />
          </a>
          <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/19.jpeg') }}">
-         <img src="{{ asset('assets-front/munucdesigns_img/collection/19.jpeg') }}" alt="instagram image" />
+         <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/collection/19.jpeg') }}" alt="instagram image" />
          </a>
          <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/20.jpeg') }}">
-         <img src="{{ asset('assets-front/munucdesigns_img/collection/20.jpeg') }}" alt="instagram image" />
+         <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/collection/20.jpeg') }}" alt="instagram image" />
          </a>
          <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/21.jpeg') }}">
-         <img src="{{ asset('assets-front/munucdesigns_img/collection/21.jpeg') }}" alt="instagram image" />
+         <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/collection/21.jpeg') }}" alt="instagram image" />
          </a>
          <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/22.jpeg') }}">
-         <img src="{{ asset('assets-front/munucdesigns_img/collection/22.jpeg') }}" alt="instagram image" />
+         <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/collection/22.jpeg') }}" alt="instagram image" />
          </a>
          <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/23.jpeg') }}">
-         <img src="{{ asset('assets-front/munucdesigns_img/collection/23.jpeg') }}" alt="instagram image" />
+         <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/collection/23.jpeg') }}" alt="instagram image" />
          </a>
          <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/24.jpeg') }}">
-         <img src="{{ asset('assets-front/munucdesigns_img/collection/24.jpeg') }}" alt="instagram image" />
+         <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/collection/24.jpeg') }}" alt="instagram image" />
          </a>
          <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/25.jpeg') }}">
-         <img src="{{ asset('assets-front/munucdesigns_img/collection/25.jpeg') }}" alt="instagram image" />
+         <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/collection/25.jpeg') }}" alt="instagram image" />
          </a>
          <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/26.jpeg') }}">
-         <img src="{{ asset('assets-front/munucdesigns_img/collection/26.jpeg') }}" alt="instagram image" />
+         <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/collection/26.jpeg') }}" alt="instagram image" />
          </a>
          <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/27.jpeg') }}">
-         <img src="{{ asset('assets-front/munucdesigns_img/collection/27.jpeg') }}" alt="instagram image" />
+         <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/collection/27.jpeg') }}" alt="instagram image" />
          </a>
          <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/28.jpeg') }}">
-         <img src="{{ asset('assets-front/munucdesigns_img/collection/28.jpeg') }}" alt="instagram image" />
+         <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/collection/28.jpeg') }}" alt="instagram image" />
          </a>
          <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/29.jpeg') }}">
-         <img src="{{ asset('assets-front/munucdesigns_img/collection/29.jpeg') }}" alt="instagram image" />
+         <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/collection/29.jpeg') }}" alt="instagram image" />
          </a>
       </div>
    </div>
@@ -193,7 +195,7 @@
             <div class="sale-banner7">
             <a href="{{ route('collections-cat',$cat->id) }}">
                <div class="inner">
-                  <div class="image"><img src="{{ asset('public').'/'.$cat->image }}" alt="Sale Banner Image"></div>
+                  <div class="image"><img class="lazyload" data-src="{{ asset('public').'/'.$cat->image }}" alt="Sale Banner Image"></div>
                   <div class="content display-flrx-content">
                      <div>
                         <h2 class="title">{{$cat->category_name}}</h2>
@@ -214,7 +216,7 @@
       <div class="row learts-mb-n30">
          <div class="col learts-mb-30">
             <div class="sale-banner8">
-               <img src="{{ asset('assets-front/munucdesigns_img/bg-img.png') }}" alt="Sale Banner Image">
+               <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/bg-img.png') }}" alt="Sale Banner Image">
                <div class="content">
                   <h2 class="title text-uppercase">Subscribe</h2>
                   <p class="text-white">Get 5% off your first purchase when you sign up for our newsletter!</p>
@@ -241,7 +243,7 @@
             <div class="col">
                <div class="testimonial">
                   <div class="author">
-                     <img src="{{ asset('assets-front/munucdesigns_img/t1.png') }}" alt="">
+                     <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/t1.png') }}" alt="">
                      <div class="content">
                         <h6 class="name">Rahul Kumar</h6>
                         <span class="title star mb-3">
@@ -265,7 +267,7 @@
             <div class="col">
                <div class="testimonial">
                   <div class="author">
-                     <img src="{{ asset('assets-front/munucdesigns_img/t2.png') }}" alt="">
+                     <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/t2.png') }}" alt="">
                      <div class="content">
                         <h6 class="name">Anandita</h6>
                         <span class="title star mb-3">
@@ -289,7 +291,7 @@
             <div class="col">
                <div class="testimonial">
                   <div class="author">
-                     <img src="{{ asset('assets-front/munucdesigns_img/t3.png') }}" alt="">
+                     <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/t3.png') }}" alt="">
                      <div class="content">
                         <h6 class="name">Sudhanshu Kamboj </h6>
                         <span class="title star mb-3">
@@ -313,7 +315,7 @@
             <div class="col">
                <div class="testimonial">
                   <div class="author">
-                     <img src="{{ asset('assets-front/munucdesigns_img/t4.png') }}" alt="">
+                     <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/t4.png') }}" alt="">
                      <div class="content">
                         <h6 class="name">Akansha Verma</h6>
                         <span class="title star mb-3">
@@ -360,7 +362,7 @@
                <div class="blog">
                   <div class="image">
                      <a href="javascript:void();">
-                     <img src="{{ asset('assets-front/munucdesigns_img/blog/b1.png') }}" alt="Blog Image">
+                     <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/blog/b1.png') }}" alt="Blog Image">
                      </a>
                   </div>
                   <div class="content">
@@ -378,7 +380,7 @@
                <div class="blog">
                   <div class="image">
                      <a href="javascript:void();">
-                     <img src="{{ asset('assets-front/munucdesigns_img/blog/b2.png') }}" alt="Blog Image">
+                     <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/blog/b2.png') }}" alt="Blog Image">
                      </a>
                   </div>
                   <div class="content">
@@ -396,7 +398,7 @@
                <div class="blog">
                   <div class="image">
                      <a href="javascript:void();">
-                     <img src="{{ asset('assets-front/munucdesigns_img/blog/b3.png') }}" alt="Blog Image">
+                     <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/blog/b3.png') }}" alt="Blog Image">
                      </a>
                   </div>
                   <div class="content">
@@ -414,7 +416,7 @@
                <div class="blog">
                   <div class="image">
                      <a href="javascript:void();">
-                     <img src="{{ asset('assets-front/munucdesigns_img/blog/b4.png') }}" alt="Blog Image">
+                     <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/blog/b4.png') }}" alt="Blog Image">
                      </a>
                   </div>
                   <div class="content">

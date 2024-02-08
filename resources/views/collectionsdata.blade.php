@@ -15,7 +15,7 @@
             <div class="sale-banner7">
             <a href="{{ route('collections-cat',$cat->id) }}">
                <div class="inner">
-                  <div class="image"><img src="{{ asset('public').'/'.$cat->image }}" alt="Sale Banner Image"></div>
+                  <div class="image"><img class="lazyload" data-src="{{ asset('public').'/'.$cat->image }}" alt="Sale Banner Image"></div>
                   <div class="content display-flrx-content">
                      <div>
                         <h2 class="title">

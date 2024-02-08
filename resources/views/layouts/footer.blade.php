@@ -2,7 +2,7 @@
         <div class="container">
                 <div class="row text-center row-cols-1">
                 <!--<div class="footer1-logo col text-center">
-                        <img src="assets/munucdesigns_img/logo.png" alt="">
+                        <img class="lazyload" data-src="assets/munucdesigns_img/logo.png" alt="">
                 </div>-->
                 <div class="footer1-menu col">
                         <ul class="widget-menu justify-content-center">
@@ -63,48 +63,25 @@
 <script src="{{ asset('assets-front/js/plugins/scrollax.min.js') }}"></script>
 <script src="{{ asset('assets-front/js/main.js') }}"></script>
 <script src="{{ asset('assets-front/js/plugins/jquery.magnific-popup.min.js') }}"></script>
-
-
+@stack('script')
 <script>
 $(document).ready(function() {
-       
 $('.image-gallery').magnificPopup({
-
 type: 'image',
-
 mainClass: 'mfp-with-zoom',
-
 gallery: {
-
     enabled: true
-
 },
-
 zoom: {
-
     enabled: true,
-
-
-
     duration: 300, // duration of the effect, in milliseconds
-
     easing: 'ease-in-out', // CSS transition easing function
-
-
-
     opener: function(openerElement) {
-
-
-
         return openerElement.is('img') ? openerElement : openerElement.find('img');
-
     }
 
-}
-
-
-
-});
+        }
+        });
 });
 (function () {
 var options = {
@@ -126,4 +103,21 @@ var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s,
 // s1.setAttribute('crossorigin','*');
 // s0.parentNode.insertBefore(s1,s0);
 // })();
+document.addEventListener("DOMContentLoaded", function() {
+      var lazyloadImages = document.querySelectorAll(".lazyload");
+      // IntersectionObserver checks if the image is in the viewport
+      var observer = new IntersectionObserver(function(entries, observer) {
+        entries.forEach(function(entry) {
+          if (entry.isIntersecting) {
+            var img = entry.target;
+            img.src = img.getAttribute("data-src");
+            observer.unobserve(img);
+          }
+        });
+      });
+      // Start observing lazy load images
+      lazyloadImages.forEach(function(image) {
+        observer.observe(image);
+      });
+});
 </script>

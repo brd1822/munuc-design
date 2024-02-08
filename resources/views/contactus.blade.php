@@ -73,7 +73,7 @@
             <div id="contact-form" class="d-none p-2 pt-0">
                <h4 class="title sub-title-theme">Drop us a line!</h4>
                <div class="contact-form mt-4">
-                  <form action="assets/php/contact-mail.php" id="contact-form" method="post">
+                  <form action="#" id="contact-form" method="post">
                      <div class="row learts-mb-n30">
                         <div class="col-md-12 col-12 learts-mb-40">
                            <input type="text" placeholder="Your Name *" name="name">

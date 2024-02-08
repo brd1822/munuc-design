@@ -29,7 +29,7 @@
                   </ul>
                   <div class="image">
                      <a href="javascript:void();">
-                     <img src="{{ asset('assets-front/munucdesigns_img/blog/b1.png') }}" alt="Blog Image">
+                     <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/blog/b1.png') }}" alt="Blog Image">
                      </a>
                   </div>
                   <div class="desc">
@@ -79,7 +79,7 @@
                   <li class="widget-blog">
                      <div class="thumbnail">
                         <a href="blog_details.html">
-                        <img src="{{ asset('assets-front/munucdesigns_img/blog/b1.png') }}" alt="Widget Blog Post">
+                        <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/blog/b1.png') }}" alt="Widget Blog Post">
                         </a>
                      </div>
                      <div class="content">
@@ -92,7 +92,7 @@
                   <li class="widget-blog">
                      <div class="thumbnail">
                         <a href="blog_details.html">
-                        <img src="{{ asset('assets-front/munucdesigns_img/blog/b2.png') }}" alt="Widget Blog Post">
+                        <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/blog/b2.png') }}" alt="Widget Blog Post">
                         </a>
                      </div>
                      <div class="content">

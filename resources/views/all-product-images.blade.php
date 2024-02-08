@@ -12,9 +12,9 @@
                     <div class="inner">
                         <!-- <a class="btn-gallery image-gallery" href="{{ asset('public').'/'.$prodImages->product_images }}"> -->
                             <div class="image">
-                                <img src="{{ asset('public').'/'.$prodImages->product_images }}" alt="Sale Banner Image" class="btn-gallery">
+                                <img class="lazyload" data-src="{{ asset('public').'/'.$prodImages->product_images }}" alt="Sale Banner Image" class="btn-gallery">
                                <a class="btn-gallery zoom-popup-img image-gallery" href="{{ asset('public').'/'.$prodImages->product_images }}" >
-                               <img src="{{ asset('public').'/'.$prodImages->product_images }}" alt="Sale Banner Image" class="btn-gallery d-none">
+                               <img class="lazyload" data-src="{{ asset('public').'/'.$prodImages->product_images }}" alt="Sale Banner Image" class="btn-gallery d-none">
                                      <svg fill="none" focusable="false" width="20" height="20" class="icon icon--image-zoom" viewBox="0 0 14 14">
                                         <path d="M9.50184 9.50184C11.4777 7.52595 11.5133 4.358 9.58134 2.42602C7.64936 0.494037 4.48141 0.529632 2.50552 2.50552C0.529632 4.48141 0.494037 7.64936 2.42602 9.58134C4.358 11.5133 7.52595 11.4777 9.50184 9.50184ZM9.50184 9.50184L13 13"  stroke="currentColor" stroke-width="2"></path>
                                     </svg>

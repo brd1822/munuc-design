@@ -58,7 +58,7 @@
          <!-- Header Logo Start -->
          <div class="col">
             <div class="header-logo justify-content-center">
-               <a href=""><img src="{{ asset('assets-front/munucdesigns_img/logo.png') }}" alt="Learts Logo"></a>
+               <a href=""><img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/logo.png') }}" alt="Learts Logo"></a>
             </div>
          </div>
          <!-- Header Logo End -->
@@ -122,7 +122,7 @@
          <!-- Header Logo Start -->
          <div class="col">
             <div class="header-logo">
-               <a href=""><img src="{{ asset('assets-front/munucdesigns_img/logo.png') }}" alt="Learts Logo"></a>
+               <a href=""><img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/logo.png') }}" alt="Learts Logo"></a>
             </div>
          </div>
          <!-- Header Logo End -->
@@ -166,7 +166,7 @@
          <!-- Header Logo Start -->
          <div class="col">
             <div class="header-logo">
-               <a href=""><img src="{{ asset('assets-front/munucdesigns_img/logo.png') }}" alt="Learts Logo"></a>
+               <a href=""><img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/logo.png') }}" alt="Learts Logo"></a>
             </div>
          </div>
          <!-- Header Logo End -->
@@ -208,7 +208,7 @@
          <!-- Header Logo Start -->
          <div class="col">
             <div class="header-logo">
-               <a href=""><img src="{{ asset('assets-front/munucdesigns_img/logo.png') }}" alt="Learts Logo"></a>
+               <a href=""><img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/logo.png') }}" alt="Learts Logo"></a>
             </div>
          </div>
          <!-- Header Logo End -->
