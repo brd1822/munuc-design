@@ -1,6 +1,11 @@
 @extends("cms.layout.main")
 
 @section('title',"Dashboard") 
+@section('pagetitle',"Dashboard") 
+@section('pageSubtitle',"Create new product Dashboard") 
+
+@section('pageSubtitle',"Product Dashboard") 
+@section('button','Dashboard') 
 
 @section('content')
 <div class="row">

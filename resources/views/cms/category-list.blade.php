@@ -1,12 +1,9 @@
 @extends("cms.layout.main")
-
 @section('title',"Category") 
 @section('pagetitle',"Product") 
 @section('pageSubtitle',"Product Category list") 
-
 @section('button','+ Add Category') 
 @section('buttonURL',"category-add") 
-
 @section('content')
       <div class="card">
          <div class="card-body">

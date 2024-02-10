@@ -168,9 +168,13 @@ class ProductController extends Controller
      * @param  \App\Models\Product  $product
      * @return \Illuminate\Http\Response
      */
-    public function edit(Product $product)
+    public function edit(Product $product, $id)
     {
-        //
+        $Brand = Brand::get();
+        $category = Category::where('category_id',0)->get();
+        $product = Product::findOrFail($id);
+        
+        return view('cms.product-edit',['category'=>$category,'Brand' =>$Brand, 'product'=>$product]);
     }
 
     /**
@@ -191,8 +195,15 @@ class ProductController extends Controller
      * @param  \App\Models\Product  $product
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Product $product)
+    public function destroy(Product $product, $id)
     {
-        //
+        Product::findOrFail($id)->update(['status'=>0]);
+
+    	$notification = array(
+			'message' => 'Product Deleted Successfully',
+			'alert-type' => 'success'
+		);
+
+		return redirect()->back()->with($notification);
     }
 }

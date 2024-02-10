@@ -2,7 +2,7 @@
 @section('title',"Product") 
 @section('pagetitle',"Product") 
 @section('pageSubtitle',"Product Create") 
-@section('button','Dashboard > New Product') 
+@section('button','New Product') 
 @section('content')
    <div class="card">
       <div class="card-body">

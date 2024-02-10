@@ -58,6 +58,7 @@ class CategoryController extends Controller
         $request->validate([
             'category_name' => 'required|unique:categories',
             'category_code' => 'required|unique:categories',
+            'order_by' => 'required|unique:categories',
             'category_file' => 'required|mimes:jpg,jpeg,png,bmp,tiff |max:4096',
         ]);
         $img = $request->file('category_file');
@@ -67,6 +68,7 @@ class CategoryController extends Controller
         Category::insert([
             'category_name' => $request->category_name,
             'category_code' => $request->category_code,
+            'order_by' => $request->order_by,
             'image' => $uploadPath,
             'category_description' => $request->description,
             'category_id' => 0,
@@ -132,9 +134,39 @@ class CategoryController extends Controller
      * @param  \App\Models\Category  $category
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Category $category)
+    public function update(Request $request, Category $category, $id)
     {
-        //
+       // dd($request->all());
+        $request->validate([
+            'category_name' => 'required',
+            'category_code' => 'required',
+            'order_by' => 'required',
+           // 'category_file' => 'required|mimes:jpg,jpeg,png,bmp,tiff |max:4096',
+        ]);
+        if(!empty($request->file('category_file'))){
+            $img = $request->file('category_file');
+            $make_name = hexdec(uniqid()).'.'.$img->getClientOriginalExtension();
+            Image::make($img)->resize(917,1000)->save(public_path('upload/categoryimage/'.$make_name));
+            $uploadPath = 'upload/categoryimage/'.$make_name;
+        }else{
+            $category = Category::findOrFail($id);
+            $uploadPath = $category->image;
+        }
+        Category::findOrFail($id)->update([
+            'category_name' => $request->category_name,
+            'category_code' => $request->category_code,
+            'order_by' => $request->order_by,
+            'image' => $uploadPath,
+            'category_description' => $request->description,
+            'category_id' => 0,
+            'updated_at' => Carbon::now()
+        ]);
+        $notification = array(
+			'message' => 'Category update Successfully',
+			'alert-type' => 'success'
+		);
+
+		return redirect()->back()->with($notification);
     }
 
     /**
@@ -148,8 +180,10 @@ class CategoryController extends Controller
         //
     }
     public function CategoryEdit($id){
+
     	$category = Category::findOrFail($id);
-    	return view('backend.category.category_edit',compact('category'));
+
+    	return view('cms.category_edit',compact('category'));
 
     }
 
@@ -190,7 +224,9 @@ class CategoryController extends Controller
 
     } // end method 
     public function subCategoryEdit($id){
+
     	$category = Category::findOrFail($id);
+
     	return view('backend.category.category_edit',compact('category'));
 
     }

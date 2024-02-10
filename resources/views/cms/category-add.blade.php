@@ -31,6 +31,15 @@
                </div>
                <div class="col-lg-6 col-sm-6 col-12">
                   <div class="form-group">
+                     <label>Order By<span style="color:red;">*</span></label>
+                     <input type="text" name="order_by" value="{{ old('order_by')}}" >
+                     @error('order_by')
+                        <span class="text-danger">{{ $message }}</span>
+                     @enderror
+                  </div>
+               </div>
+               <div class="col-lg-6 col-sm-6 col-12">
+                  <div class="form-group">
                      <label>Category Image<span style="color:red;">*</span></label>
                      <input type="file" name="category_file" value="{{ old('category_file')}}" >
                      @error('category_file')

@@ -8,7 +8,7 @@
         {{ config('app.name') }}
     @show
 </title>
-<link rel="shortcut icon" type="image/x-icon" href="{{ asset('/') }}assets/img/favicon.png">
+<link rel="shortcut icon" type="image/x-icon" href="{{ asset('/') }}assets/img/profiles/favicon.png">
 <link rel="stylesheet" href="{{ asset('/') }}assets/css/bootstrap.min.css">
 <link rel="stylesheet" href="{{ asset('/') }}assets/css/animate.css">
 <link rel="stylesheet" href="{{ asset('/') }}assets/plugins/select2/css/select2.min.css">

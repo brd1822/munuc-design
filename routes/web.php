@@ -41,14 +41,18 @@ Route::get('logout', [LoginController::class, 'logout'])->name('logout');
 Route::middleware(['auth','prevent-back-history'])->group(function () {
 Route::get('dashboard',[DashboardController::class,'index'])->name('dashboard');
 Route::get('product-add',[ProductController::class,'create'])->name('product-add');
+Route::get('product-edit/{id}',[ProductController::class,'edit'])->name('product-edit');
 Route::post('product-save',[ProductController::class,'store'])->name('product-save');
+Route::put('product-update',[ProductController::class,'update'])->name('product-update');
 Route::get('more-images',[ProductController::class,'moreImages'])->name('more-images');
 Route::post('product-images',[ProductController::class,'moreImagesUpload'])->name('product-images');
 Route::get('product-list',[ProductController::class,'index'])->name('product-list');
+Route::get('product-delete/{id}', [ProductController::class, 'destroy'])->name('product-delete');
 
 
 Route::get('category-add',[CategoryController::class,'create'])->name('category-add');
 Route::post('category-save',[CategoryController::class,'store'])->name('category-save');
+Route::put('category-update/{id}',[CategoryController::class,'update'])->name('category-update');
 Route::get('category-list',[CategoryController::class,'index'])->name('category-list');
 
 Route::get('category-edit/{id}', [CategoryController::class, 'CategoryEdit'])->name('category-edit');

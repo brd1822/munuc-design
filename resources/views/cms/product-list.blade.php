@@ -103,9 +103,9 @@
                   </th>
                   <th>Product Name</th>
                   <th>Category </th>
-                  <th>Brand</th>
-                  <th>price</th>
-                  <th>Qty</th>
+                  <!-- <th>Brand</th> -->
+                  <!-- <th>price</th> -->
+                  <!-- <th>Qty</th> -->
                   <th>Created By</th>
                   <th>Status</th>
                   <th>Action</th>
@@ -128,19 +128,19 @@
                      <a href="javascript:void(0);">{{$products->product->product_name}}</a>
                   </td>
                   <td>{{$products->categorys}}</td>
-                  <td>N/D</td>
-                  <td>{{$products->product->new_price}}</td>
-                  <td>{{$products->product->quantity}}</td>
+                  <!-- <td>N/D</td> -->
+                  <!-- <td>{{$products->product->new_price}}</td> -->
+                  <!-- <td>{{$products->product->quantity}}</td> -->
                   <td>Admin</td>
                   <td>@if($products->product->status =='1') Active @else Inactive @endif</td>
                   <td>
-                     <a class="me-3" href="#">
+                     <!-- <a class="me-3" href="#">
                      <img src="assets/img/icons/eye.svg" alt="img">
-                     </a>
-                     <a class="me-3" href="#">
+                     </a> -->
+                     <!-- <a class="me-3" href="{{ route('product-edit',$products->product->id) }}">
                      <img src="assets/img/icons/edit.svg" alt="img">
-                     </a>
-                     <a class="confirm-text" href="javascript:void(0);">
+                     </a> -->
+                     <a class="confirm-text" href="{{ route('product-delete',$products->product->id) }}" id="delete">
                      <img src="assets/img/icons/delete.svg" alt="img">
                      </a>
                   </td>

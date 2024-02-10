@@ -17,7 +17,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $category = Category::where('category_id','0')->orderBy('id','asc')->get();
+        $category = Category::where('category_id','0')->orderBy('order_by','asc')->get();
 
        return view('home',['categorys'=>$category]);
     }
@@ -51,7 +51,7 @@ class HomeController extends Controller
      */
     public function collectionsData(Request $request)
     {
-        $category = Category::where('category_id','0')->orderBy('id','asc')->get();
+        $category = Category::where('category_id','0')->orderBy('order_by','asc')->get();
         return view('collectionsdata',['categorys'=>$category]);
     }
 

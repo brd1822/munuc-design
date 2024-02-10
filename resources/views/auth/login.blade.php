@@ -8,7 +8,7 @@
       <meta name="author" content="">
       <meta name="robots" content="">
       <title>Login - CMS</title>
-      <link rel="shortcut icon" type="image/x-icon" href="{{ asset('/') }}assets/img/favicon.png">
+      <link rel="shortcut icon" type="image/x-icon" href="{{ asset('/') }}assets/img/profiles/favicon.png">
       <link rel="stylesheet" href="{{ asset('/') }}assets/css/bootstrap.min.css">
       <link rel="stylesheet" href="{{ asset('/') }}assets/plugins/fontawesome/css/fontawesome.min.css">
       <link rel="stylesheet" href="{{ asset('/') }}assets/plugins/fontawesome/css/all.min.css">
@@ -24,11 +24,11 @@
                   <form action="{{ route('authenticate') }}" method="post">
                   @csrf
                      <div class="login-logo">
-                        <img src="https://www.indiaprocess.com/images/logo1.png" alt="img">
+                        <img src="{{ asset('/') }}assets/img/profiles/avator1.png" alt="img">
                      </div>
                      <div class="login-userheading">
                         <h3>Sign In</h3>
-                        <h4>Please login to your account</h4>
+                        <!-- <h4>Please login to your account</h4> -->
                      </div>
                      <div class="form-login">
                         <label>Email</label>
