@@ -32,7 +32,8 @@ Route::get('product-cat/{slug}', [HomeController::class, 'getProductImagesData']
 Route::get('blog', [HomeController::class, 'blogData'])->name('blog');
 Route::get('blog-detail', [HomeController::class, 'blogDetails'])->name('blogdetail');
 Route::get('terms-of-use', [HomeController::class, 'termsOfUse'])->name('terms-OfUse');
-Route::get('privacy-policy', [HomeController::class, 'privacyPolicy'])->name('privacy-Policy');
+Route::get('privacy-policy', [HomeController::class, 'privacyPolicy'])->name('privacyPolicy');
+Route::get('reviews-detail', [HomeController::class, 'reviewsDetails'])->name('reviewsDetails');
 
 Route::get('login', [LoginController::class, 'showLoginForm'])->name('login');
 Route::post('login', [LoginController::class, 'authenticate'])->name('authenticate');

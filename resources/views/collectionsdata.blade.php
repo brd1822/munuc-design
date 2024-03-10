@@ -8,7 +8,7 @@
          <span style="color: #eede97;
     font-weight: bold;">PRODUCT CATEGORIES:-
     </span> @foreach($categorys as $cat) {{ strtoupper($cat->category_name) }}, @endforeach</h5> -->
-      <div class="row learts-mb-n30">
+      <div class="row learts-mb-n30 wow fadeInUp" data-wow-duration="5s" data-wow-delay=".9s" style="visibility: visible; animation-duration: 5s; animation-delay: 0.9s; animation-name: fadeInUp;">
       @if(!empty($categorys))
       @foreach($categorys as $cat)
          <div class="col-lg-4 col-12 learts-mb-30">
@@ -40,7 +40,7 @@
       </div>
    </div>
 </div>
-<div class="section learts-mt-40 mb-5">
+<!-- <div class="section learts-mt-40 mb-5">
    <div class="container">
       <h5 class="feature-heading">COLLECTIONS - PRODUCT CATEGORIES WISE - WE SERVE BULK ORDERS</h5>
       <div class="row learts-mb-n30 collection-box">
@@ -282,7 +282,7 @@
          </div>
       </div>
    </div>
-</div>
+</div> -->
 <!--Collection section End-->
 
 @endsection

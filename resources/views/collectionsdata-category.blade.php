@@ -8,20 +8,23 @@
       <div class="row learts-mb-n30">
       @if(!empty($Products))
       @foreach($Products as $prodt)
-         <div class="col-lg-4 col-12 learts-mb-30">
+         <div class="col-lg-4 col-12 learts-mb-30 wow fadeInRight" data-wow-duration="3s" data-wow-delay=".9s" style="visibility: visible; animation-duration: 3s; animation-delay: 0.9s; animation-name: fadeInRight;">
             <div class="sale-banner7">
-            <a href="{{ route('product-cat',$prodt->product->product_slug) }}">
-               <div class="inner">
-                  <div class="image"><img class="lazyload" data-src="{{ asset('public').'/'.$prodt->image }}" alt="Sale Banner Image"></div>
-                  <div class="content display-flrx-content">
-                     <div>
-                        <h2 class="title">
-                        {{$prodt->product->product_name}}
-                        </h2>
+               <a href="{{ route('product-cat',$prodt->product->product_slug) }}">
+                  <div class="inner">
+                     <div class="image"><img class="lazyload" data-src="{{ asset('public').'/'.$prodt->image }}" alt="Sale Banner Image"></div>
+                     <div class="content display-flrx-content">
+                        <div>
+                           <h2 class="title">
+                           {{$prodt->product->product_name}}
+                           </h2>
+                           <p>{{$prodt->product->description}}
+                              <br>({{$prodt->product->size_specification}})
+                           </p>
+                        </div>
                      </div>
                   </div>
-               </div>
-            </a>
+               </a>
             </div>
          </div>
          @endforeach

@@ -9,7 +9,7 @@
             @foreach($productImages as $prodImages)
             <div class="col-lg-4 col-12 learts-mb-30">
                 <div class="sale-banner7">
-                    <div class="inner">
+                    <div class="inner wow fadeInUp" data-wow-duration="3s" data-wow-delay=".9s" style="visibility: visible; animation-duration: 3s; animation-delay: 0.9s; animation-name: fadeInUp;">
                         <!-- <a class="btn-gallery image-gallery" href="{{ asset('public').'/'.$prodImages->product_images }}"> -->
                             <div class="image">
                                 <img class="lazyload" data-src="{{ asset('public').'/'.$prodImages->product_images }}" alt="Sale Banner Image" class="btn-gallery">

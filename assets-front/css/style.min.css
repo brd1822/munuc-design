@@ -9689,7 +9689,6 @@ only screen and (max-width:767px) {
 
 .sale-banner7 .inner .image::before {
     position: absolute;
-    z-index: 2;
     top: 15px;
     left: 15px;
     width: calc(100% - 30px);
@@ -9698,12 +9697,11 @@ only screen and (max-width:767px) {
     -webkit-transition: all .5s ease 0s;
     transition: all .5s ease 0s;
     opacity: 0;
-    border: 1px solid #fff
 }
 
 .sale-banner7 .inner .content {
     position: relative;
-    z-index: 9;
+    /* z-index: 9; */
     top: 0;
     display: flex;
     align-items: center;
@@ -16996,7 +16994,7 @@ p.footer-text-logo {
     }
 
     .sale-banner7 {
-        height: 340px;
+        height: auto;
     }
 
     .sale-banner8 .content {

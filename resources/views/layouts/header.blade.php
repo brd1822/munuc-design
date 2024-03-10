@@ -22,5 +22,6 @@
 <link rel="stylesheet" href="{{ asset('assets-front/css/plugins/photoswipe-default-skin.css') }}">
 <link rel="stylesheet" href="{{ asset('assets-front/css/plugins/slick.css') }}">
 <link rel="stylesheet" href="{{ asset('assets-front/css/style.min.css') }}">
-<link rel="stylesheet" href="{{ asset('assets-front/css/animate.min.css') }}">
+<!-- <link rel="stylesheet" href="{{ asset('assets-front/css/animate.min.css') }}"> -->
 <link rel="stylesheet" href="{{ asset('assets-front/css/plugins/magnific-popup.css') }}">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">

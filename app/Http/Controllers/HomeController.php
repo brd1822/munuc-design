@@ -58,7 +58,7 @@ class HomeController extends Controller
     public function collectionsCategoryWiseData(Request $request, $id)
     {
         
-        $product = Product::select('id','product_name','product_slug','washing_instruction','size_specification')->where('status','1')->where('category_id',$id)->orderBy('id','asc')->get();
+        $product = Product::select('id','product_name','product_slug','description','washing_instruction','size_specification')->where('status','1')->where('category_id',$id)->orderBy('id','asc')->get();
         foreach($product as $products){
             $pdata = new \stdClass;
             $pdata->product =$products;
@@ -122,5 +122,9 @@ class HomeController extends Controller
     public function privacyPolicy(Request $request)
     {
         return view('privacypolicy');
+    }
+    public function reviewsDetails(Request $request)
+    {
+        return view('review-details');
     }
 }

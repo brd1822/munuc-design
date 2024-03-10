@@ -186,7 +186,41 @@ class ProductController extends Controller
      */
     public function update(Request $request, Product $product)
     {
-        //
+        $request->validate([
+            'product_name' => 'required',
+            //'product_name' => 'required|exists:product_name',
+            'category_id' => 'required|not_in:0',
+            'old_price' => 'required',
+            'new_price' => 'required',
+           // 'multi_img.*' => 'mimes:jpg,jpeg,bmp,png|max:10240',
+           // 'multi_img' => 'max:5',
+          ]);
+            //dd('HJi');
+            $product_id = Product::where('id',$request->id)->update([
+                'product_name' => $request->product_name,
+                'product_slug' =>  strtolower(str_replace(' ', '-', $request->product_name)),
+                'brand_id' => $request->brand_id,
+                'category_id' => $request->category_id,
+                'subcategory_id' => $request->subcategory_id,
+                'description' => $request->description,
+                'old_price' => $request->old_price,
+                'new_price' => $request->new_price,
+                'tax' => $request->tax,
+                'discountType' => $request->discountType,
+                'quantity' => $request->quantity,
+                'washing_instruction' => $request->washing_instruction,
+                'size_specification' => $request->size_specification,
+                'feature_products' => $request->feature_products,
+                'explore_more_products' => $request->explore_more_products,
+                'status' => $request->status,
+                'updated_at' => Carbon::now(),   
+            ]);
+
+            $notification = array(
+                'message' => 'Product Update Successfully',
+                'alert-type' => 'success'
+            );
+            return redirect()->back()->with($notification);
     }
 
     /**

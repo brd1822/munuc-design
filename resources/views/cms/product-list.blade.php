@@ -137,11 +137,11 @@
                      <!-- <a class="me-3" href="#">
                      <img src="assets/img/icons/eye.svg" alt="img">
                      </a> -->
-                     <!-- <a class="me-3" href="{{ route('product-edit',$products->product->id) }}">
-                     <img src="assets/img/icons/edit.svg" alt="img">
-                     </a> -->
+                     <a class="me-3" href="{{ route('product-edit',$products->product->id) }}">
+                        <img src="assets/img/icons/edit.svg" alt="img">
+                     </a>
                      <a class="confirm-text" href="{{ route('product-delete',$products->product->id) }}" id="delete">
-                     <img src="assets/img/icons/delete.svg" alt="img">
+                        <img src="assets/img/icons/delete.svg" alt="img">
                      </a>
                   </td>
                </tr>

@@ -4,7 +4,7 @@
 @push('script')
 @endpush
 <!-- Slider main container Start -->
-<div class="section animate__animated animate__backInUp animate__delay-1s">
+<div class="section">
    <div class="container">
      <div class="row">
      <div class="col-md-8 pl-0 pr-0 banner-h-img">
@@ -67,14 +67,14 @@
    <div class="container">
       <div class="row learts-mb-n30">
          <!-- About Us Image Start -->
-         <div class="col-md-6 col-12 ms-lg-auto learts-mb-30 animate__animated animate__backInLeft animate__delay-4s">
+         <div class="col-md-6 col-12 ms-lg-auto learts-mb-30 wow fadeInUp" data-wow-duration="4s" data-wow-delay=".6s" style="visibility: visible; animation-duration: 4s; animation-delay: 0.6s; animation-name: fadeInUp;" >
             <div class="about-us-image">
                <img class="lazyload" class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/aboutus.jpeg') }}" alt="About Image">
             </div>
          </div>
          <!-- About Us Image End -->
          <!-- About Us Content Start -->
-         <div class="col-lg-6 col-md-6 col-12 ms-lg-auto align-self-center learts-mb-0 animate__animated animate__backInRight animate__delay-4s">
+         <div class="col-lg-6 col-md-6 col-12 ms-lg-auto align-self-center learts-mb-0 wow fadeInDown" data-wow-duration="4s" data-wow-delay=".9s" style="visibility: visible; animation-duration: 4s; animation-delay: 0.9s; animation-name: fadeInDown;">
             <div class="about-us m-lg-4">
                <div class="inner">
                   <h6 class="sub-title about-sub-title">Where Inspiration Meets Comfort:</h6>
@@ -93,28 +93,28 @@
    <div class="container">
       <h5 class="feature-heading">PRODUCTS RANGE</h5>
       <div class="instafeed instafeed-carousel instafeed-carousel1">
-         <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/1.jpeg') }}">
+         <a class="instafeed-item image-gallery wow fadeInLeft" data-wow-duration="3s" data-wow-delay=".9s" style="visibility: visible; animation-duration: 3s; animation-delay: 0.9s; animation-name: fadeInLeft;" href="{{ asset('assets-front/munucdesigns_img/collection/1.jpeg') }}">
          <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/collection/1.jpeg') }}" alt="instagram image" />
          </a>
-         <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/2.jpeg') }}">
+         <a class="instafeed-item image-gallery wow fadeInLeft" data-wow-duration="3s" data-wow-delay=".9s" style="visibility: visible; animation-duration: 3s; animation-delay: 0.9s; animation-name: fadeInLeft;" href="{{ asset('assets-front/munucdesigns_img/collection/2.jpeg') }}">
          <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/collection/2.jpeg') }}" alt="instagram image" />
          </a>
-         <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/3.jpeg') }}">
+         <a class="instafeed-item image-gallery wow fadeInRight" data-wow-duration="3s" data-wow-delay=".9s" style="visibility: visible; animation-duration: 3s; animation-delay: 0.9s; animation-name: fadeInRight;" href="{{ asset('assets-front/munucdesigns_img/collection/3.jpeg') }}">
          <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/collection/3.jpeg') }}" alt="instagram image" />
          </a>
-         <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/4.jpeg') }}">
+         <a class="instafeed-item image-gallery wow fadeInRight" data-wow-duration="3s" data-wow-delay=".9s" style="visibility: visible; animation-duration: 3s; animation-delay: 0.9s; animation-name: fadeInRight;" href="{{ asset('assets-front/munucdesigns_img/collection/4.jpeg') }}">
          <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/collection/4.jpeg') }}" alt="instagram image" />
          </a>
-         <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/5.jpeg') }}">
+         <a class="instafeed-item image-gallery wow fadeInRight" data-wow-duration="3s" data-wow-delay=".9s" style="visibility: visible; animation-duration: 3s; animation-delay: 0.9s; animation-name: fadeInRight;" href="{{ asset('assets-front/munucdesigns_img/collection/5.jpeg') }}">
          <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/collection/5.jpeg') }}" alt="instagram image" />
          </a>
-         <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/6.jpeg') }}">
+         <a class="instafeed-item image-gallery wow fadeInRight" data-wow-duration="3s" data-wow-delay=".9s" style="visibility: visible; animation-duration: 3s; animation-delay: 0.9s; animation-name: fadeInRight;" href="{{ asset('assets-front/munucdesigns_img/collection/6.jpeg') }}">
          <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/collection/6.jpeg') }}" alt="instagram image" />
          </a>
-         <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/7.jpeg') }}">
+         <a class="instafeed-item image-gallery wow fadeInRight" data-wow-duration="3s" data-wow-delay=".9s" style="visibility: visible; animation-duration: 3s; animation-delay: 0.9s; animation-name: fadeInRight;" href="{{ asset('assets-front/munucdesigns_img/collection/7.jpeg') }}">
          <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/collection/7.jpeg') }}" alt="instagram image" />
          </a>
-         <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/8.jpeg') }}">
+         <a class="instafeed-item image-gallery wow fadeInRight" data-wow-duration="3s" data-wow-delay=".9s" style="visibility: visible; animation-duration: 3s; animation-delay: 0.9s; animation-name: fadeInRight;" href="{{ asset('assets-front/munucdesigns_img/collection/8.jpeg') }}">
          <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/collection/8.jpeg') }}" alt="instagram image" />
          </a>
          <a class="instafeed-item image-gallery" href="{{ asset('assets-front/munucdesigns_img/collection/9.jpeg') }}">
@@ -191,7 +191,7 @@
       <div class="row learts-mb-n30">
       @if(!empty($categorys))
       @foreach($categorys as $cat)
-         <div class="col-lg-3 col-12 learts-mb-30">
+         <div class="col-lg-3 col-12 learts-mb-30 wow fadeInUp" data-wow-duration="5s" data-wow-delay=".9s" style="visibility: visible; animation-duration: 5s; animation-delay: 0.9s; animation-name: fadeInUp;">
             <div class="sale-banner7">
             <a href="{{ route('collections-cat',$cat->id) }}">
                <div class="inner">
@@ -235,109 +235,7 @@
 
 <div class="section testimonial-bg-img section-padding">
    <div class="container">
-      <div class="row learts-mb-n30">
-         <div class="col-md-12 mb-3">
-            <h2 class="title text-uppercase">Customer Reviews</h2>
-         </div>
-         <div class="testimonial-carousel mt-3 mb-4">
-            <div class="col">
-               <div class="testimonial">
-                  <div class="author">
-                     <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/t1.png') }}" alt="">
-                     <div class="content">
-                        <h6 class="name">Rahul Kumar</h6>
-                        <span class="title star mb-3">
-                        <i class="fa fa-star text-warning mr-2"></i>
-                        <i class="fa fa-star text-warning mr-2"></i>
-                        <i class="fa fa-star text-warning mr-2"></i>
-                        <i class="fa fa-star text-warning mr-2"></i>
-                        <i class="fa fa-star text-warning mr-2"></i>
-                        </span>
-                     </div>
-                  </div>
-                  <p>
-                     "I recently visited Dhanya
-                     Wholesale Mart and I must sa..."
-                  </p>
-                  <div class="col-md-12 text-center mt-0">
-                     <a href="#" class="link">Read Full Review <i class="fas fa-caret-right m-lg-2"></i></a>
-                  </div>
-               </div>
-            </div>
-            <div class="col">
-               <div class="testimonial">
-                  <div class="author">
-                     <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/t2.png') }}" alt="">
-                     <div class="content">
-                        <h6 class="name">Anandita</h6>
-                        <span class="title star mb-3">
-                        <i class="fa fa-star text-warning mr-2"></i>
-                        <i class="fa fa-star text-warning mr-2"></i>
-                        <i class="fa fa-star text-warning mr-2"></i>
-                        <i class="fa fa-star text-warning mr-2"></i>
-                        <i class="fa fa-star text-warning mr-2"></i>
-                        </span>
-                     </div>
-                  </div>
-                  <p>
-                     "Ordered these two beauty 😍
-                     really good quality and got th..."
-                  </p>
-                  <div class="col-md-12 text-center mt-0">
-                     <a href="#" class="link">Read Full Review <i class="fas fa-caret-right m-lg-2"></i></a>
-                  </div>
-               </div>
-            </div>
-            <div class="col">
-               <div class="testimonial">
-                  <div class="author">
-                     <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/t3.png') }}" alt="">
-                     <div class="content">
-                        <h6 class="name">Sudhanshu Kamboj </h6>
-                        <span class="title star mb-3">
-                        <i class="fa fa-star text-warning mr-2"></i>
-                        <i class="fa fa-star text-warning mr-2"></i>
-                        <i class="fa fa-star text-warning mr-2"></i>
-                        <i class="fa fa-star text-warning mr-2"></i>
-                        <i class="fa fa-star text-warning mr-2"></i>
-                        </span>
-                     </div>
-                  </div>
-                  <p>
-                     "Nice Quality and good service
-                     !!"
-                  </p>
-                  <div class="col-md-12 text-center mt-0">
-                     <a href="#" class="link">Read Full Review <i class="fas fa-caret-right m-lg-2"></i></a>
-                  </div>
-               </div>
-            </div>
-            <div class="col">
-               <div class="testimonial">
-                  <div class="author">
-                     <img class="lazyload" data-src="{{ asset('assets-front/munucdesigns_img/t4.png') }}" alt="">
-                     <div class="content">
-                        <h6 class="name">Akansha Verma</h6>
-                        <span class="title star mb-3">
-                        <i class="fa fa-star text-warning mr-2"></i>
-                        <i class="fa fa-star text-warning mr-2"></i>
-                        <i class="fa fa-star text-warning mr-2"></i>
-                        <i class="fa fa-star text-warning mr-2"></i>
-                        <i class="fa fa-star text-warning mr-2"></i>
-                        </span>
-                     </div>
-                  </div>
-                  <p>
-                     "My mom brought 2 bedsheets
-                     from Dhanya wholesale Mart..."
-                  </p>
-                  <div class="col-md-12 text-center mt-0">
-                     <a href="#" class="link">Read Full Review <i class="fas fa-caret-right m-lg-2"></i></a>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
+      @include('reviews-list')
    </div>
 </div>
 <div class="section online-bg-img section-padding">
@@ -357,8 +255,8 @@
             Home Furnishing
             </a> 
          </div> -->
-         <div class="row row-cols-xl-4 row-cols-md-2 row-cols-1 learts-mb-n40 mb-2">
-            <div class="col learts-mb-40">
+         <div class="row row-cols-xl-4 row-cols-md-2 row-cols-1 learts-mb-n40 mb-2 animate__animated animate__backInRight animate__delay-8s">
+            <div class="col learts-mb-40 wow fadeInLeft" data-wow-duration="5s" data-wow-delay=".8s" style="visibility: visible; animation-duration: 5s; animation-delay: 0.8s; animation-name: fadeInLeft;">
                <div class="blog">
                   <div class="image">
                      <a href="javascript:void();">
@@ -376,7 +274,7 @@
                   </div>
                </div>
             </div>
-            <div class="col learts-mb-40">
+            <div class="col learts-mb-40 wow fadeInUp" data-wow-duration="5s" data-wow-delay=".8s" style="visibility: visible; animation-duration: 5s; animation-delay: 0.8s; animation-name: fadeInUp;">
                <div class="blog">
                   <div class="image">
                      <a href="javascript:void();">
@@ -394,7 +292,7 @@
                   </div>
                </div>
             </div>
-            <div class="col learts-mb-40">
+            <div class="col learts-mb-40 wow fadeInDown" data-wow-duration="5s" data-wow-delay=".8s" style="visibility: visible; animation-duration: 5s; animation-delay: 0.8s; animation-name: fadeInDown;">
                <div class="blog">
                   <div class="image">
                      <a href="javascript:void();">
@@ -412,7 +310,7 @@
                   </div>
                </div>
             </div>
-            <div class="col learts-mb-40">
+            <div class="col learts-mb-40 wow fadeInRight" data-wow-duration="5s" data-wow-delay=".8s" style="visibility: visible; animation-duration: 5s; animation-delay: 0.8s; animation-name: fadeInRight;">
                <div class="blog">
                   <div class="image">
                      <a href="javascript:void();">

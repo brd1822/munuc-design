@@ -1,6 +1,6 @@
 <div class="footer1-section section section-padding pb-4">
         <div class="container">
-                <div class="row text-center row-cols-1">
+                <div class="row text-center row-cols-1 wow fadeInDown" data-wow-duration="3s" data-wow-delay=".8s" style="visibility: visible; animation-duration: 3s; animation-delay: 0.8s; animation-name: fadeInDown;">
                 <!--<div class="footer1-logo col text-center">
                         <img class="lazyload" data-src="assets/munucdesigns_img/logo.png" alt="">
                 </div>-->
@@ -10,8 +10,8 @@
                         <li><a href="{{ route('aboutUs') }}">About Us</a></li>
                         <li><a href="{{ route('collections') }}">Product</a></li>
                         <!-- <li><a href="{{ route('/') }}">Shop Now</a></li> -->
-                        <li><a href="{{ route('/') }}">Reviews</a></li>
-                        <li><a href="{{ route('/') }}">Privacy Policy</a></li>
+                        <li><a href="{{ route('reviewsDetails') }}">Reviews</a></li>
+                        <li><a href="{{ route('privacyPolicy') }}">Privacy Policy</a></li>
                         <!-- <li><a href="{{ route('/') }}">Refund & Cancellation</a></li> -->
                         <!-- <li><a href="{{ route('/') }}">Terms of Use</a></li> -->
                         <li><a href="{{ route('/') }}">Blog</a></li>
@@ -28,9 +28,9 @@
                                 <li class="hintT-top" data-hint="Twitter"> <a href="#" target="_blank"> <svg viewBox="0 0 24 24" fill="currentColor" width="30px" height="30px" data-ux="IconSocial" class="x-el x-el-svg c1-1 c1-2 c1-1g c1-2y c1-2z c1-30 c1-31 c1-32 c1-33 c1-b c1-c c1-d c1-e c1-f c1-g"><path fill-rule="evenodd" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg> </a></li>
                         </ul>
                 </div>
-                <p class="footer-text-logo">munuc Designs</p>
+                <p class="footer-text-logo">Munuc Designs</p>
                 <div class="footer1-copyright col">
-                        <p class="copyright text-black">&copy; {{date('Y')}} munuc Designs. All Rights Reserved. Designed and Developed By <a href="http://indiaprocess.com/" target="_blank" style="color:red;"> IndiaProcess.com</a></p>
+                        <p class="copyright text-black">&copy; {{date('Y')}} Munuc Designs. All Rights Reserved. Designed and Developed By <a href="http://indiaprocess.com/" target="_blank" style="color:red;"> IndiaProcess.com</a></p>
                 </div>
                 </div>
         </div>
@@ -63,6 +63,7 @@
 <script src="{{ asset('assets-front/js/plugins/scrollax.min.js') }}"></script>
 <script src="{{ asset('assets-front/js/main.js') }}"></script>
 <script src="{{ asset('assets-front/js/plugins/jquery.magnific-popup.min.js') }}"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 @stack('script')
 <script>
 $(document).ready(function() {
@@ -120,4 +121,7 @@ document.addEventListener("DOMContentLoaded", function() {
         observer.observe(image);
       });
 });
+</script>
+<script>
+    new WOW().init();
 </script>

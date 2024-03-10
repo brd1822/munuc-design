@@ -4,9 +4,9 @@
 <div class="section section-padding pt-4 pb-5">
    <div class="container">
       <!-- Contact Map Start -->
-      <div class="row learts-mt-10 p-4 pt-0">
+      <div class="row learts-mt-10 p-4 pt-0 wow fadeInLeft" data-wow-duration="3s" data-wow-delay=".6s" style="visibility: visible; animation-duration: 3s; animation-delay: 0.6s; animation-name: fadeInLeft;">
          <p>Thank you for your interest in our textiles manufacturing and export services. We are dedicated to providing high-quality products and exceptional customer service. Please feel free to reach out to us using the following contact information.</p>
-         <div class="col-lg-6 col-12 p-0">
+         <div class="col-lg-6 col-12 p-0 wow fadeInLeft" data-wow-duration="3s" data-wow-delay=".9s" style="visibility: visible; animation-duration: 3s; animation-delay: 0.9s; animation-name: fadeInUp;">
             <div class="box-details-page" id="contact-details">
                <h5 class="title sub-title-theme">CONTACT US -</h5>
                <!-- <h4 class="title sub-title-theme mt-3 mb-3">Better yet, see us in person!</h4> -->
@@ -35,7 +35,7 @@
                   </div>
                </a>
                <h4 class="title sub-title-theme mt-3 mb-2">Munuc Designs</h4>
-               <p class="mt-2">
+               <p class="mt-2 wow fadeInLeft" data-wow-duration="5s" data-wow-delay=".9s" style="visibility: visible; animation-duration: 5s; animation-delay: 0.9s; animation-name: fadeInUp;">
                   HEAD OFFICE 8/29 CHIRANJEEV VIHAR OPPOSITE 
                   CHANCELLOR CLUB GHAZIABAD 
                   UTTAR PRADESH 201002, INDIA
@@ -104,7 +104,7 @@
                </div>
             </div>
          </div>
-         <div class="col-md-6 p-0">
+         <div class="col-md-6 p-0 wow fadeInDown" data-wow-duration="4s" data-wow-delay=".9s" style="visibility: visible; animation-duration: 4s; animation-delay: 0.9s; animation-name: fadeInDown;">
             <iframe class="contact-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56008.72671369034!2d77.37629702177072!3d28.673326865089418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf220ffd79e9d%3A0xeeb9c331037ba6fe!2sChancellor%20Club!5e0!3m2!1sen!2sin!4v1701455930839!5m2!1sen!2sin" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" loading="lazy"></iframe>
          </div>
       </div>
